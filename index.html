@@ -141,14 +141,14 @@
             <img src="./img/img-header-why.png" alt="why" class="img-fluid img-head" />
           </div>
         </div>
-        <div class="col-6 container-fluid">
+        <div class="col-10 col-md-6 col-lg-6 container-fluid">
           <div class="vertical-line">
             <div class="round-line d-flex flex-column">
               <div class="row">
                 <div class="dot step1 active-dot">
                   <div class="timeline-text">
                     <h3 class="timeline-head">Well Known Reputable Advisor</h3>
-                    <h4 class="timeline-body">Focus to increase client valuation proposition and firm sitting at their side.</h4>
+                    <h4 class="timeline-body step01">Focus to increase client valuation proposition and firm sitting at their side.</h4>
                   </div>
                 </div>
               </div>
@@ -156,7 +156,7 @@
                 <div class="dot step2">
                   <div class="timeline-text">
                     <h3 class="timeline-head">Syariah Expertise</h3>
-                    <h4 class="timeline-body" hidden>Experience in syariah financing and fund raising. Our key members are licensed syariah experts by OJK.</h4>
+                    <h4 class="timeline-body invisible step02">Experience in syariah financing and fund raising. Our key members are licensed syariah experts by OJK.</h4>
                   </div>
                 </div>
               </div>
@@ -164,7 +164,7 @@
                 <div class="dot step3">
                   <div class="timeline-text">
                     <h3 class="timeline-head">End-to-End Capital Market Services and Experiences</h3>
-                    <h4 class="timeline-body" hidden>FATH Capital served starting from the pre-IPO financing, IPO process, roadshow, until post-IPO corporate actions (maintain share prices, right-issues, backdoor listing).</h4>
+                    <h4 class="timeline-body invisible step03">FATH Capital served starting from the pre-IPO financing, IPO process, roadshow, until post-IPO corporate actions (maintain share prices, right-issues, backdoor listing).</h4>
                   </div>
                 </div>
               </div>
@@ -172,7 +172,7 @@
                 <div class="dot step4">
                   <div class="timeline-text">
                     <h3 class="timeline-head">Well Known Reputable Advisor</h3>
-                    <h4 class="timeline-body" hidden>Focus to increase client valuation proposition and firm sitting at their side.</h4>
+                    <h4 class="timeline-body invisible step04">Focus to increase client valuation proposition and firm sitting at their side.</h4>
                   </div>
                 </div>
               </div>
@@ -180,7 +180,7 @@
                 <div class="dot step5">
                   <div class="timeline-text">
                     <h3 class="timeline-head">Amanah – Trustworth – Iintegrity</h3>
-                    <h4 class="timeline-body" hidden>Focus to increase client valuation proposition and firm sitting at their side.</h4>
+                    <h4 class="timeline-body invisible step05">Focus to increase client valuation proposition and firm sitting at their side.</h4>
                   </div>
                 </div>
               </div>
@@ -188,7 +188,7 @@
                 <div class="dot step6">
                   <div class="timeline-text">
                     <h3 class="timeline-head">Extensive Network to Investors</h3>
-                    <h4 class="timeline-body" hidden>Access to more than 40 investors with different industries, such as Energy, Mining, HealthCare, Retail, Properties, etc both local and foreigners.</h4>
+                    <h4 class="timeline-body invisible step06">Access to more than 40 investors with different industries, such as Energy, Mining, HealthCare, Retail, Properties, etc both local and foreigners.</h4>
                   </div>
                 </div>
               </div>
@@ -196,7 +196,7 @@
                 <div class="dot step7">
                   <div class="timeline-text">
                     <h3 class="timeline-head">Comfort and Save</h3>
-                    <h4 class="timeline-body" hidden>
+                    <h4 class="timeline-body invisible step07">
                       High Compliance and Good Corporate Governance (GCG) practices. FATH Capital also served law enforcement (BPK, KPK, KEJAKSAAN AGUNG, POLICE DEPARTMENT, etc) as their Audit and Financial experts.
                     </h4>
                   </div>
@@ -207,6 +207,17 @@
         </div>
       </section>
       <!-- END WHY US DO SECTION -->
+
+      <!-- START PREVIOUS CLIENT SECTION -->
+      <section class="section2">
+        <div class="col-lg-12 p-0 my-auto">
+          <img src="./img/img-header-prev-back.png" alt="prevback" class="img-back" />
+          <div class="col-4 mx-auto">
+            <img src="./img/img-header-prev.png" alt="why" class="img-fluid img-head" />
+          </div>
+        </div>
+      </section>
+      <!-- START PREVIOUS CLIENT SECTION -->
     </div>
     <!-- End Banner Body -->
 
@@ -222,5 +233,90 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
     -->
+    <script>
+      $(".step1").click(function () {
+        for (let i = 1; i < 8; i++) {
+          if (i == 1) {
+            $(".step1").addClass("active-dot");
+            $(".step01").removeClass("invisible");
+          } else {
+            $(".step" + i).removeClass("active-dot");
+            $(".step0" + i).addClass("invisible");
+          }
+        }
+      });
+
+      $(".step2").click(function () {
+        for (let i = 1; i < 8; i++) {
+          if (i == 2) {
+            $(".step2").addClass("active-dot");
+            $(".step02").removeClass("invisible");
+          } else {
+            $(".step" + i).removeClass("active-dot");
+            $(".step0" + i).addClass("invisible");
+          }
+        }
+      });
+
+      $(".step3").click(function () {
+        for (let i = 1; i < 8; i++) {
+          if (i == 3) {
+            $(".step3").addClass("active-dot");
+            $(".step03").removeClass("invisible");
+          } else {
+            $(".step" + i).removeClass("active-dot");
+            $(".step0" + i).addClass("invisible");
+          }
+        }
+      });
+
+      $(".step4").click(function () {
+        for (let i = 1; i < 8; i++) {
+          if (i == 4) {
+            $(".step4").addClass("active-dot");
+            $(".step04").removeClass("invisible");
+          } else {
+            $(".step" + i).removeClass("active-dot");
+            $(".step0" + i).addClass("invisible");
+          }
+        }
+      });
+
+      $(".step5").click(function () {
+        for (let i = 1; i < 8; i++) {
+          if (i == 5) {
+            $(".step5").addClass("active-dot");
+            $(".step05").removeClass("invisible");
+          } else {
+            $(".step" + i).removeClass("active-dot");
+            $(".step0" + i).addClass("invisible");
+          }
+        }
+      });
+
+      $(".step6").click(function () {
+        for (let i = 1; i < 8; i++) {
+          if (i == 6) {
+            $(".step6").addClass("active-dot");
+            $(".step06").removeClass("invisible");
+          } else {
+            $(".step" + i).removeClass("active-dot");
+            $(".step0" + i).addClass("invisible");
+          }
+        }
+      });
+
+      $(".step7").click(function () {
+        for (let i = 1; i < 8; i++) {
+          if (i == 7) {
+            $(".step7").addClass("active-dot");
+            $(".step07").removeClass("invisible");
+          } else {
+            $(".step" + i).removeClass("active-dot");
+            $(".step0" + i).addClass("invisible");
+          }
+        }
+      });
+    </script>
   </body>
 </html>

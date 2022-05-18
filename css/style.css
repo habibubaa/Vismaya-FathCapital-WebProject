@@ -186,7 +186,7 @@ html {
   margin-top: 100px;
 }
 
-.section2 .container-fluid {
+.section2.container-fluid {
   margin-top: -30px;
 }
 
@@ -204,8 +204,8 @@ html {
 }
 
 .vertical-line {
-  width: 9px;
-  height: 432px;
+  width: 8px;
+  height: 500px;
 
   background: #000000;
   border-radius: 20px;
@@ -216,17 +216,31 @@ html {
 }
 
 .dot {
-  height: 42px;
-  width: 42px;
+  height: 35px;
+  width: 35px;
   background: #424242;
   border-radius: 50%;
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
+  transition: 0.5s;
+  margin-left: 3px;
 }
 
 .active-dot {
   background: linear-gradient(180deg, #e7df3b 0%, #5dc6ae 100%);
-  margin-bottom: 70px;
+  margin-bottom: 100px;
+}
+
+.dot.step3.active-dot {
+  margin-bottom: 160px;
+}
+
+.dot.step5.active-dot {
+  margin-bottom: 100px;
+}
+
+.dot.step6.active-dot {
+  margin-bottom: 150px;
 }
 
 .timeline-head {
@@ -236,7 +250,7 @@ html {
   line-height: 26px;
   text-align: left;
   color: #ffffff;
-  width: 700px;
+  width: 300px;
   margin-left: 20px;
 }
 
@@ -247,12 +261,12 @@ html {
   line-height: 22px;
   text-align: left;
   color: #ffffff;
-  width: 700px;
+  width: 300px;
   margin-left: 20px;
 }
 
 .timeline-text {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 50px;
 }
 
@@ -282,6 +296,53 @@ html {
   /* WHY */
   .section2 .img-head {
     margin-top: -110px;
+  }
+
+  .timeline-head {
+    width: 500px;
+  }
+
+  .timeline-body {
+    width: 500px;
+  }
+
+  .timeline-text {
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+
+  .dot {
+    height: 42px;
+    width: 42px;
+    background: #424242;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    margin-left: 0px;
+  }
+
+  .active-dot {
+    background: linear-gradient(180deg, #e7df3b 0%, #5dc6ae 100%);
+    margin-bottom: 70px;
+  }
+
+  .dot.step3.active-dot {
+    margin-bottom: 120px;
+  }
+
+  .dot.step5.active-dot {
+    margin-bottom: 70px;
+  }
+
+  .dot.step6.active-dot {
+    margin-bottom: 70px;
+  }
+
+  .vertical-line {
+    width: 9px;
+    height: 480px;
+    border-radius: 20px;
   }
 }
 
@@ -339,19 +400,15 @@ html {
 
   /* WHY */
   .section2 .img-head {
-    margin-top: -170px;
+    margin-top: -160px;
   }
 
   .section2 .container-fluid {
-    margin-top: -30px;
+    margin-top: -20px;
   }
 
   .section2 .img-back {
     width: 100%;
-  }
-
-  .section2 .img-head {
-    margin-top: -70px;
   }
 
   .info-why {
@@ -362,8 +419,6 @@ html {
   .vertical-line {
     width: 9px;
     height: 432px;
-
-    background: #000000;
     border-radius: 20px;
   }
 
@@ -378,6 +433,7 @@ html {
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 20px;
+    margin-left: 0px;
   }
 
   .active-dot {
@@ -386,25 +442,11 @@ html {
   }
 
   .timeline-head {
-    font-family: Montserrat;
-    font-size: 21px;
-    font-weight: 700;
-    line-height: 26px;
-    text-align: left;
-    color: #ffffff;
     width: 700px;
-    margin-left: 20px;
   }
 
   .timeline-body {
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: left;
-    color: #ffffff;
     width: 700px;
-    margin-left: 20px;
   }
 
   .timeline-text {
@@ -419,5 +461,23 @@ html {
 
   .dot:hover {
     background: #5dc6ae;
+  }
+
+  .dot.step3.active-dot {
+    margin-bottom: 70px;
+  }
+
+  .dot.step5.active-dot {
+    margin-bottom: 70px;
+  }
+
+  .dot.step6.active-dot {
+    margin-bottom: 70px;
+  }
+
+  .vertical-line {
+    width: 9px;
+    height: 432px;
+    border-radius: 20px;
   }
 }
