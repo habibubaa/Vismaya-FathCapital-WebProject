@@ -1,5 +1,10 @@
-html {
-  scroll-behavior: smooth;
+body {
+  background-color: #101820;
+}
+
+.img-main {
+  width: 100%;
+  position: absolute;
 }
 
 /* NAVBAR */
@@ -61,9 +66,9 @@ html {
 }
 
 .banner-body {
-  position: relative;
+  position: absolute;
   height: 2968px;
-  margin-top: -50px;
+  margin-top: -32px;
 
   background: #101820;
 }
@@ -104,6 +109,10 @@ html {
 }
 
 /* WHAT WE DO - CARD */
+.s2 {
+  margin-top: 200px;
+}
+
 .text-wwd {
   font-family: "Montserrat";
   font-style: normal;
@@ -163,6 +172,10 @@ html {
   color: #ffffff;
 }
 
+.card-title {
+  text-transform: uppercase;
+}
+
 .card:hover .card-text {
   top: 20px;
 }
@@ -177,25 +190,29 @@ html {
   color: #ffffff;
 }
 
-.banner-body .container {
-  margin-top: -270px;
+.container-whatwedo {
+  margin-top: -140px;
+  position: absolute;
+  z-index: 2;
 }
 
 /* WHY US */
-.section2 {
+.s3 {
   margin-top: 100px;
+  position: relative;
 }
 
-.section2.container-fluid {
+.s3.container-fluid {
   margin-top: -30px;
 }
 
-.section2 .img-back {
+.s3 .img-back {
   width: 100%;
+  margin-top: -10px;
 }
 
-.section2 .img-head {
-  margin-top: -70px;
+.s3 .img-head {
+  margin-top: -80px;
 }
 
 .info-why {
@@ -246,12 +263,16 @@ html {
 .timeline-head {
   font-family: Montserrat;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 26px;
   text-align: left;
   color: #ffffff;
   width: 300px;
   margin-left: 20px;
+}
+
+.th1 {
+  font-weight: 700;
 }
 
 .timeline-body {
@@ -279,6 +300,10 @@ html {
   background: #5dc6ae;
 }
 
+/* OUR PREVIOUS CLIENT - CARD */
+.img-head-prev {
+}
+
 /* TABLET/PHONE */
 @media (min-width: 576px) {
   /* JUMBOTRON */
@@ -294,7 +319,7 @@ html {
   }
 
   /* WHY */
-  .section2 .img-head {
+  .s3 .img-head {
     margin-top: -110px;
   }
 
@@ -390,7 +415,7 @@ html {
   }
 
   .card:hover .card-text {
-    top: 80px;
+    top: 100px;
   }
 
   .card img {
@@ -399,16 +424,12 @@ html {
   }
 
   /* WHY */
-  .section2 .img-head {
+  .s3 .img-head {
     margin-top: -160px;
   }
 
-  .section2 .container-fluid {
+  .s3 .container-fluid {
     margin-top: -20px;
-  }
-
-  .section2 .img-back {
-    width: 100%;
   }
 
   .info-why {
@@ -461,6 +482,10 @@ html {
 
   .dot:hover {
     background: #5dc6ae;
+  }
+
+  .dot.step1.active-dot {
+    margin-bottom: 50px;
   }
 
   .dot.step3.active-dot {

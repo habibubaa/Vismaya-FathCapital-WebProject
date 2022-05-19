@@ -7,6 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.7/fullpage.min.css"
+      integrity="sha512-UAJzvXdoBJReHrVgQJR2nNYWuW6GoW6aLUI1DNWlily9LYwaUILr/7Qc8ve8aFwk1d+x+JHU89cKTrrvWaHAXQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,51 +21,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet" />
 
     <!-- Style -->
-    <link rel="stylesheet" href="css/style.css" />
-
-    <title>FATH CAPITAL</title>
+    <link rel="stylesheet" href="css/style2.css" />
   </head>
   <body>
-    <!-- Start Jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
-      <!-- Start Navbar -->
-      <nav class="navbar navbar-expand navbar-light shadow-5-strong">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
+    <div id="fullPage">
+      <img src="img/bg-img.png" alt="bg-img.png" class="img-main" />
+      <section class="vertical-scrolling s1">
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-expand navbar-light shadow-5-strong">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- End Navbar -->
+        <div class="container">
+          <h1 class="display-4 col-sm-9 col-md-9 col-lg-9 mx-auto">WE DELIVER SOUND & SPECIALIZE SERVICE</h1>
+          <p class="lead col-sm-7 col-md-7 col-lg-7 mx-auto">Our strength lies in our ability to help clients solving their financial needs and grabbing investment opportunity.</p>
+          <div class="btn-scroll col-1 col-sm-1 col-md-1 col-lg-1 mx-auto">
+            <a href="#whatwedo">
+              <img src="./img/btn-arrow-down.png" alt="arrow" />
+            </a>
           </div>
         </div>
-      </nav>
-      <!-- End Navbar -->
-      <div class="container">
-        <h1 class="display-4 col-sm-9 col-md-9 col-lg-9 mx-auto">WE DELIVER SOUND & SPECIALIZE SERVICE</h1>
-        <p class="lead col-sm-7 col-md-7 col-lg-7 mx-auto">Our strength lies in our ability to help clients solving their financial needs and grabbing investment opportunity.</p>
-        <div class="btn-scroll col-1 col-sm-1 col-md-1 col-lg-1 mx-auto">
-          <a href="#container-whatwedo">
-            <img src="./img/btn-arrow-down.png" alt="arrow" />
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- End Jumbotron -->
+      </section>
 
-    <!-- Start Banner Body -->
-    <div class="banner-body">
       <!-- START WHAT WE DO SECTION -->
-      <section class="container" id="container-whatwedo">
+      <section class="vertical-scrolling s2 container" id="container-whatwedo">
         <div class="row g-0">
           <div class="col-6 col-md-4 col-lg-4 p-0 d-flex align-items-end flex-column">
             <h1 class="text-wwd mt-auto p-2">
@@ -67,10 +70,13 @@
             </h1>
           </div>
           <div class="col-6 col-md-4 col-lg-4 p-0">
-            <div class="card">
+            <div class="card card-2" onmouseover="hideTitle(2)" onmouseout="showTitle(2)">
               <img src="./img/img-cfa.png" alt="cfa" />
               <div class="card-img-overlay d-flex align-items-end">
-                <h5 class="card-title">Corporate Financial Advisory</h5>
+                <h5 class="card-title card-title2">
+                  Corporate <br />
+                  Financial Advisory
+                </h5>
               </div>
               <div class="card-text">
                 <h3>
@@ -81,10 +87,13 @@
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-4 p-0">
-            <div class="card">
+            <div class="card card-3" onmouseover="hideTitle(3)" onmouseout="showTitle(3)">
               <img src="./img/img-crfm.png" alt="crfm" />
               <div class="card-img-overlay d-flex align-items-end">
-                <h5 class="card-title">Capital Rising and Fund Management</h5>
+                <h5 class="card-title card-title3">
+                  Capital Rising <br />
+                  & Fund Management
+                </h5>
               </div>
               <div class="card-text">
                 <h3><span class="font-weight-bold">Bridging, project financing, hedge funds, equities and bonds, money markets, private equities and property</span> with a wide range of traditional and alternative.</h3>
@@ -92,10 +101,13 @@
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-4 p-0">
-            <div class="card">
+            <div class="card card-4" onmouseover="hideTitle(4)" onmouseout="showTitle(4)">
               <img src="./img/img-nme-2.png" alt="nme" />
               <div class="card-img-overlay d-flex align-items-end">
-                <h5 class="card-title">New Market Entries</h5>
+                <h5 class="card-title card-title4">
+                  New Market <br />
+                  Entries
+                </h5>
               </div>
               <div class="card-text">
                 Provide financial advisory to <span class="font-weight-bold">maximize corporate valuation</span> as well as <span class="font-weight-bold">financial audit</span> and
@@ -104,10 +116,13 @@
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-4 p-0">
-            <div class="card">
+            <div class="card card-5" onmouseover="hideTitle(5)" onmouseout="showTitle(5)">
               <img src="./img/img-cdt.png" alt="cdt" />
               <div class="card-img-overlay d-flex align-items-end">
-                <h5 class="card-title">Commercial Deal & Transaction</h5>
+                <h5 class="card-title card-title5">
+                  Commercial <br />
+                  Deal & Transaction
+                </h5>
               </div>
               <div class="card-text">
                 <h3>
@@ -118,10 +133,13 @@
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-4 p-0">
-            <div class="card">
+            <div class="card card-6" onmouseover="hideTitle(6)" onmouseout="showTitle(6)">
               <img src="./img/img-svb.png" alt="svb" />
               <div class="card-img-overlay d-flex align-items-end">
-                <h5 class="card-title">Start-up Venture Builder</h5>
+                <h5 class="card-title card-title6">
+                  Start-up <br />
+                  Venture Builder
+                </h5>
               </div>
               <div class="card-text">
                 Provide seed funding, raising growth capital, <span class="font-weight-bold">advance startup business ideas, strengthen the team foundation, and connect and scale up</span> ventures growth to the industrial scale acceptance
@@ -134,8 +152,8 @@
       <!-- END WHAT WE DO SECTION -->
 
       <!-- START WHY US SECTION -->
-      <section class="section2">
-        <div class="col-lg-12 p-0 my-auto">
+      <section class="vertical-scrolling s3">
+        <div class="col-lg-12 p-0">
           <img src="./img/img-header-why-back.png" alt="whyback" class="img-back" />
           <div class="col-4 mx-auto">
             <img src="./img/img-header-why.png" alt="why" class="img-fluid img-head" />
@@ -147,7 +165,7 @@
               <div class="row">
                 <div class="dot step1 active-dot">
                   <div class="timeline-text">
-                    <h3 class="timeline-head">Well Known Reputable Advisor</h3>
+                    <h3 class="timeline-head th1">Well Known Reputable Advisor</h3>
                     <h4 class="timeline-body step01">Focus to increase client valuation proposition and firm sitting at their side.</h4>
                   </div>
                 </div>
@@ -155,48 +173,48 @@
               <div class="row">
                 <div class="dot step2">
                   <div class="timeline-text">
-                    <h3 class="timeline-head">Syariah Expertise</h3>
-                    <h4 class="timeline-body invisible step02">Experience in syariah financing and fund raising. Our key members are licensed syariah experts by OJK.</h4>
+                    <h3 class="timeline-head th2">Syariah Expertise</h3>
+                    <h4 class="timeline-body step02" hidden>Experience in syariah financing and fund raising. Our key members are licensed syariah experts by OJK.</h4>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="dot step3">
                   <div class="timeline-text">
-                    <h3 class="timeline-head">End-to-End Capital Market Services and Experiences</h3>
-                    <h4 class="timeline-body invisible step03">FATH Capital served starting from the pre-IPO financing, IPO process, roadshow, until post-IPO corporate actions (maintain share prices, right-issues, backdoor listing).</h4>
+                    <h3 class="timeline-head th3">End-to-End Capital Market Services and Experiences</h3>
+                    <h4 class="timeline-body step03" hidden>FATH Capital served starting from the pre-IPO financing, IPO process, roadshow, until post-IPO corporate actions (maintain share prices, right-issues, backdoor listing).</h4>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="dot step4">
                   <div class="timeline-text">
-                    <h3 class="timeline-head">Well Known Reputable Advisor</h3>
-                    <h4 class="timeline-body invisible step04">Focus to increase client valuation proposition and firm sitting at their side.</h4>
+                    <h3 class="timeline-head th4">Well Known Reputable Advisor</h3>
+                    <h4 class="timeline-body step04" hidden>Focus to increase client valuation proposition and firm sitting at their side.</h4>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="dot step5">
                   <div class="timeline-text">
-                    <h3 class="timeline-head">Amanah – Trustworth – Iintegrity</h3>
-                    <h4 class="timeline-body invisible step05">Focus to increase client valuation proposition and firm sitting at their side.</h4>
+                    <h3 class="timeline-head th5">Amanah – Trustworth – Iintegrity</h3>
+                    <h4 class="timeline-body step05" hidden>Focus to increase client valuation proposition and firm sitting at their side.</h4>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="dot step6">
                   <div class="timeline-text">
-                    <h3 class="timeline-head">Extensive Network to Investors</h3>
-                    <h4 class="timeline-body invisible step06">Access to more than 40 investors with different industries, such as Energy, Mining, HealthCare, Retail, Properties, etc both local and foreigners.</h4>
+                    <h3 class="timeline-head th6">Extensive Network to Investors</h3>
+                    <h4 class="timeline-body step06" hidden>Access to more than 40 investors with different industries, such as Energy, Mining, HealthCare, Retail, Properties, etc both local and foreigners.</h4>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="dot step7">
                   <div class="timeline-text">
-                    <h3 class="timeline-head">Comfort and Save</h3>
-                    <h4 class="timeline-body invisible step07">
+                    <h3 class="timeline-head th7">Comfort and Save</h3>
+                    <h4 class="timeline-body step07" hidden>
                       High Compliance and Good Corporate Governance (GCG) practices. FATH Capital also served law enforcement (BPK, KPK, KEJAKSAAN AGUNG, POLICE DEPARTMENT, etc) as their Audit and Financial experts.
                     </h4>
                   </div>
@@ -209,17 +227,24 @@
       <!-- END WHY US DO SECTION -->
 
       <!-- START PREVIOUS CLIENT SECTION -->
-      <section class="section2">
+      <section class="vertical-scrolling s4">
         <div class="col-lg-12 p-0 my-auto">
           <img src="./img/img-header-prev-back.png" alt="prevback" class="img-back" />
           <div class="col-4 mx-auto">
-            <img src="./img/img-header-prev.png" alt="why" class="img-fluid img-head" />
+            <img src="./img/img-header-prev.png" alt="why" class="img-fluid img-head-prev" />
           </div>
         </div>
       </section>
       <!-- START PREVIOUS CLIENT SECTION -->
     </div>
-    <!-- End Banner Body -->
+
+    <!-- FULL PAGE JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.7/fullpage.min.js"
+      integrity="sha512-MLy5YE5Hiyow/qhqZAsO91PjjWUBngedTSWTdvSbEPjFienlVY6SJ8Uy7eLHkudkv3kTJ7NFHZ9s0JD/UwpHdA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -233,15 +258,36 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
     -->
+
     <script>
+      new fullpage("#fullPage", {
+        autoScrolling: true,
+        //navigation: true,
+        sectionSelector: ".vertical-scrolling",
+        anchors: ["main", "whatwedo", "whyus", "previousclient"],
+      });
+
+      function hideTitle(x) {
+        console.log(x);
+        var nomor = x;
+        $(".card-title" + nomor).attr("hidden", true);
+      }
+
+      function showTitle(x) {
+        var nomor = x;
+        $(".card-title" + nomor).attr("hidden", false);
+      }
+
       $(".step1").click(function () {
         for (let i = 1; i < 8; i++) {
           if (i == 1) {
             $(".step1").addClass("active-dot");
-            $(".step01").removeClass("invisible");
+            $(".step01").removeAttr("hidden");
+            $(".th1").css("font-weight", "700");
           } else {
             $(".step" + i).removeClass("active-dot");
-            $(".step0" + i).addClass("invisible");
+            $(".step0" + i).attr("hidden", true);
+            $(".th" + i).css("font-weight", "400");
           }
         }
       });
@@ -250,10 +296,12 @@
         for (let i = 1; i < 8; i++) {
           if (i == 2) {
             $(".step2").addClass("active-dot");
-            $(".step02").removeClass("invisible");
+            $(".step02").removeAttr("hidden");
+            $(".th2").css("font-weight", "700");
           } else {
             $(".step" + i).removeClass("active-dot");
-            $(".step0" + i).addClass("invisible");
+            $(".step0" + i).attr("hidden", true);
+            $(".th" + i).css("font-weight", "400");
           }
         }
       });
@@ -262,10 +310,12 @@
         for (let i = 1; i < 8; i++) {
           if (i == 3) {
             $(".step3").addClass("active-dot");
-            $(".step03").removeClass("invisible");
+            $(".step03").removeAttr("hidden");
+            $(".th3").css("font-weight", "700");
           } else {
             $(".step" + i).removeClass("active-dot");
-            $(".step0" + i).addClass("invisible");
+            $(".step0" + i).attr("hidden", true);
+            $(".th" + i).css("font-weight", "400");
           }
         }
       });
@@ -274,10 +324,12 @@
         for (let i = 1; i < 8; i++) {
           if (i == 4) {
             $(".step4").addClass("active-dot");
-            $(".step04").removeClass("invisible");
+            $(".step04").removeAttr("hidden");
+            $(".th4").css("font-weight", "700");
           } else {
             $(".step" + i).removeClass("active-dot");
-            $(".step0" + i).addClass("invisible");
+            $(".step0" + i).attr("hidden", true);
+            $(".th" + i).css("font-weight", "400");
           }
         }
       });
@@ -286,10 +338,12 @@
         for (let i = 1; i < 8; i++) {
           if (i == 5) {
             $(".step5").addClass("active-dot");
-            $(".step05").removeClass("invisible");
+            $(".step05").removeAttr("hidden");
+            $(".th5").css("font-weight", "700");
           } else {
             $(".step" + i).removeClass("active-dot");
-            $(".step0" + i).addClass("invisible");
+            $(".step0" + i).attr("hidden", true);
+            $(".th" + i).css("font-weight", "400");
           }
         }
       });
@@ -298,10 +352,12 @@
         for (let i = 1; i < 8; i++) {
           if (i == 6) {
             $(".step6").addClass("active-dot");
-            $(".step06").removeClass("invisible");
+            $(".step06").removeAttr("hidden");
+            $(".th6").css("font-weight", "700");
           } else {
             $(".step" + i).removeClass("active-dot");
-            $(".step0" + i).addClass("invisible");
+            $(".step0" + i).attr("hidden", true);
+            $(".th" + i).css("font-weight", "400");
           }
         }
       });
@@ -310,10 +366,12 @@
         for (let i = 1; i < 8; i++) {
           if (i == 7) {
             $(".step7").addClass("active-dot");
-            $(".step07").removeClass("invisible");
+            $(".step07").removeAttr("hidden");
+            $(".th7").css("font-weight", "700");
           } else {
             $(".step" + i).removeClass("active-dot");
-            $(".step0" + i).addClass("invisible");
+            $(".step0" + i).attr("hidden", true);
+            $(".th" + i).css("font-weight", "400");
           }
         }
       });
