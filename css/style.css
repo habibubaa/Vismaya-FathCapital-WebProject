@@ -1,5 +1,10 @@
 body {
   background-color: #101820;
+  position: fixed;
+}
+
+.fp-watermark {
+  display: none;
 }
 
 .img-main {
@@ -11,6 +16,7 @@ body {
 .navbar {
   position: relative;
   z-index: 1;
+  margin-top: -60px;
 }
 
 .nav-item {
@@ -65,38 +71,6 @@ body {
   color: #ffffff;
 }
 
-.banner-body {
-  position: absolute;
-  height: 2968px;
-  margin-top: -32px;
-
-  background: #101820;
-}
-
-/* JUMBOTRON */
-.jumbotron {
-  background-image: url(../img/bg-buildings-sky.png);
-  background-size: cover;
-  height: 967px;
-  margin-top: -35px;
-  position: relative;
-}
-
-.jumbotron::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(180deg, rgba(214, 214, 214, 0.42) 14.11%, rgba(16, 24, 32, 0.45) 43.25%, rgba(16, 24, 32, 0.8) 80.52%, #101820 100%);
-  position: absolute;
-  bottom: 0;
-}
-
-.jumbotron .container {
-  position: relative;
-  z-index: 1;
-}
-
 /* UTILITY */
 .btn {
   text-transform: uppercase;
@@ -148,7 +122,7 @@ body {
 
 .card img {
   width: 100%;
-  height: 280px;
+  height: 320px;
 }
 
 .card-text {
@@ -207,7 +181,7 @@ body {
 }
 
 .s3 .img-back {
-  width: 100%;
+  width: 130%;
   margin-top: -10px;
 }
 
@@ -215,14 +189,13 @@ body {
   margin-top: -80px;
 }
 
-.info-why {
-  position: absolute;
-  margin-left: 100px;
+.s3 .img-fluid {
+  max-width: 150%;
 }
 
 .vertical-line {
   width: 8px;
-  height: 500px;
+  height: 550px;
 
   background: #000000;
   border-radius: 20px;
@@ -301,17 +274,123 @@ body {
 }
 
 /* OUR PREVIOUS CLIENT - CARD */
-.img-head-prev {
+.s4 {
+  margin-top: 100px;
+  position: relative;
+}
+
+.s4 .container {
+  margin-top: -30px;
+}
+
+.s4 .img-back {
+  width: 130%;
+  margin-top: -10px;
+}
+
+.s4 .img-head-prev {
+  margin-top: -80px;
+}
+
+.img-fluid.img-head-prev {
+  max-width: 200%;
+}
+
+.col-prev {
+  margin-top: 30px;
+}
+
+.img-angkasa {
+  width: 302px;
+  height: 103px;
+}
+
+.img-satria {
+  width: 159px;
+  height: 73px;
+}
+
+.img-pnm {
+  width: 189px;
+  height: 74px;
+}
+
+.img-pln {
+  width: 229px;
+  height: 70px;
+}
+
+.img-ojk {
+  width: 240px;
+  height: 103px;
+}
+
+.img-mega {
+  width: 195px;
+  height: 120px;
+}
+
+.img-pertamina {
+  width: 335px;
+  height: 70px;
+}
+
+.img-aero {
+  width: 172px;
+  height: 101px;
+}
+
+.img-idx {
+  width: 110px;
+  height: 116px;
+}
+
+.text-partner {
+  height: 29px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+.img-g20 {
+  width: 72.35px;
+  height: 99.58px;
+}
+
+.img-wbaf {
+  width: 97px;
+  height: 97px;
+}
+
+/* OUR FINANCIAL INSIGHT - CARD */
+.s5 {
+  margin-top: 100px;
+  position: relative;
+}
+
+.s5 .container {
+  margin-top: -30px;
+}
+
+.s5 .img-back {
+  width: 130%;
+  margin-top: -10px;
+}
+
+.s5 .img-head-prev {
+  margin-top: -80px;
 }
 
 /* TABLET/PHONE */
 @media (min-width: 576px) {
-  /* JUMBOTRON */
-  .jumbotron {
-    background-image: url(../img/bg-buildings-sky.png);
-    background-size: cover;
-    height: 1025px;
-    margin-top: -65px;
+  /* NAVBAR */
+  .navbar {
+    margin-top: 0px;
   }
 
   .nav-link {
@@ -321,6 +400,10 @@ body {
   /* WHY */
   .s3 .img-head {
     margin-top: -110px;
+  }
+
+  .s3 .img-fluid {
+    max-width: 100%;
   }
 
   .timeline-head {
@@ -373,6 +456,11 @@ body {
 
 /* DESKTOP */
 @media (min-width: 992px) {
+  /* NAVBAR */
+  .navbar {
+    margin-top: 0px;
+  }
+
   /* HOME */
   .display-4 {
     font-size: 65px;
@@ -424,17 +512,21 @@ body {
   }
 
   /* WHY */
+  .s3 .img-back {
+    width: 100%;
+    margin-top: -10px;
+  }
+
   .s3 .img-head {
     margin-top: -160px;
   }
 
-  .s3 .container-fluid {
-    margin-top: -20px;
+  .s3 .img-fluid {
+    max-width: 100%;
   }
 
-  .info-why {
-    position: absolute;
-    margin-left: 100px;
+  .s3 .container-fluid {
+    margin-top: -20px;
   }
 
   .vertical-line {
@@ -500,9 +592,41 @@ body {
     margin-bottom: 70px;
   }
 
-  .vertical-line {
-    width: 9px;
-    height: 432px;
-    border-radius: 20px;
+  /* WHY */
+  .s4 .img-back {
+    width: 100%;
+    margin-top: -10px;
+  }
+
+  .s4 .img-head-prev {
+    margin-top: -160px;
+    width: 130%;
+  }
+
+  .s4 .img-fluid {
+    max-width: 130%;
+  }
+
+  .s4 .container-fluid {
+    margin-top: -20px;
+  }
+
+  /* Financial */
+  .s5 .img-back {
+    width: 100%;
+    margin-top: -10px;
+  }
+
+  .s5 .img-head-prev {
+    margin-top: -160px;
+    width: 130%;
+  }
+
+  .s5 .img-fluid {
+    max-width: 130%;
+  }
+
+  .s5 .container-fluid {
+    margin-top: -20px;
   }
 }
