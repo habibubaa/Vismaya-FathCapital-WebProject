@@ -282,11 +282,12 @@ body {
 }
 
 .s4 .img-head-prev {
-  margin-top: -80px;
+  margin-top: -90px;
 }
 
 .img-fluid.img-head-prev {
-  max-width: 200%;
+  max-width: 250%;
+  margin-left: -80px;
 }
 
 .col-prev {
