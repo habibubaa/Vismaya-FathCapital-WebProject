@@ -15,7 +15,7 @@ body {
 .navbar {
   position: relative;
   z-index: 1;
-  margin-top: -320px;
+  margin-top: -220px;
 }
 
 .nav-item {
@@ -376,26 +376,6 @@ body {
 
 .s5 .img-head-prev {
   margin-top: -80px;
-}
-
-/* SMALL PHONE */
-@media (min-width: 350px) {
-  /* NAVBAR */
-  .navbar {
-    position: relative;
-    z-index: 1;
-    margin-top: -200px;
-  }
-}
-
-/* SMALL PHONE */
-@media (min-width: 370px) {
-  /* NAVBAR */
-  .navbar {
-    position: relative;
-    z-index: 1;
-    margin-top: -330px;
-  }
 }
 
 /* TABLET/PHONE */
