@@ -302,7 +302,7 @@ body {
 .s4 .img-back {
   width: 150%;
   margin-top: -10px;
-  margin-left: -180px;
+  margin-left: -200px;
 }
 
 .s4 .img-head-prev {
@@ -398,7 +398,7 @@ body {
 .s5 .img-back {
   width: 150%;
   margin-top: 30px;
-  margin-left: -250px;
+  margin-left: -230px;
 }
 
 .s5 .img-head-prev {
@@ -601,6 +601,7 @@ body {
 .col-social {
   margin-top: 200px;
   margin-left: -10px;
+  padding-bottom: 100px;
 }
 
 /**********************************************************************************************************************************/
