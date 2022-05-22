@@ -74,6 +74,30 @@ body {
   padding-top: 60px;
 }
 
+.btn-uncateg {
+  position: absolute;
+  width: 82.88px;
+  height: 22.23px;
+  right: 250px;
+  bottom: 19.77px;
+
+  background: #ffffff;
+  border-radius: 10.1068px;
+  border-style: none;
+}
+
+.btn-view-more {
+  position: absolute;
+  width: 168px;
+  height: 43px;
+  bottom: 20px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  border-style: none;
+}
+
 /* WHAT WE DO - CARD */
 .s2 {
   margin-top: 0px;
@@ -291,7 +315,7 @@ body {
 }
 
 .col-prev {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .img-angkasa {
@@ -372,13 +396,214 @@ body {
 }
 
 .s5 .img-back {
-  width: 130%;
-  margin-top: -10px;
+  width: 150%;
+  margin-top: 30px;
+  margin-left: -210px;
 }
 
 .s5 .img-head-prev {
   margin-top: -80px;
 }
+
+.fi-by {
+  position: absolute;
+  width: 101px;
+  height: 12px;
+  right: 75px;
+  bottom: 25px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #ffffff;
+}
+
+.fi-uncateg {
+  position: absolute;
+  left: 6.41%;
+  right: 5.51%;
+  top: 27.41%;
+  bottom: 27.62%;
+
+  /* Montserrat 8 */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 10px;
+  /* identical to box height */
+
+  color: #473e3e;
+
+  text-transform: uppercase;
+}
+
+.fi-div-title {
+  position: absolute;
+  width: 182px;
+  height: 51px;
+  right: 150px;
+  top: 175px;
+}
+
+.fi-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0px;
+  color: #ffffff;
+}
+
+.fi-date {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #e0e351;
+}
+
+.img-home-grad {
+  margin: 0 0 -260px;
+  position: relative;
+}
+
+.crop {
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.fi-view-more {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Darker Blue */
+
+  color: #214974;
+}
+
+.div-view-more {
+  margin-top: -50px;
+  height: 60px;
+
+  display: inline-block;
+  background: linear-gradient(to bottom, #10182021, #101820); /* W3C */
+}
+
+/* FOOTER */
+.s6 {
+  position: relative;
+  background: linear-gradient(180deg, #3191a1 0%, #218c66 100%);
+  border-radius: 0px;
+}
+
+.img-logo {
+  position: absolute;
+  width: 175px;
+  height: 126.56px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.fo-div-title {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 40px;
+}
+
+.fo-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+
+  color: #ffffff;
+}
+
+.fo-sub-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #ffffff;
+}
+
+.div-ig {
+  position: absolute;
+  width: 158.79px;
+  height: 38.24px;
+  left: 1px;
+  top: 20px;
+}
+
+.div-fb {
+  position: absolute;
+  width: 159.24px;
+  height: 38.24px;
+  left: 1px;
+  top: 70px;
+}
+
+.div-linkedin {
+  position: absolute;
+  width: 158.79px;
+  height: 38.24px;
+  left: 1px;
+  top: 120px;
+}
+
+.img-social {
+  position: absolute;
+  width: 38.24px;
+  height: 38.24px;
+  left: 1px;
+  top: 30px;
+}
+
+.fo-social {
+  position: absolute;
+  width: 110px;
+  height: 20px;
+  left: 49.79px;
+  top: 38.28px;
+
+  /* Montserrat 16 */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.col-contact {
+  margin-top: 250px;
+}
+
+.col-social {
+  margin-top: 200px;
+  margin-left: -10px;
+}
+
+/**********************************************************************************************************************************/
 
 /* TABLET/PHONE */
 @media (min-width: 576px) {
@@ -452,6 +677,8 @@ body {
     border-radius: 20px;
   }
 }
+
+/**********************************************************************************************************************************/
 
 /* DESKTOP */
 @media (min-width: 992px) {
@@ -603,6 +830,7 @@ body {
   .s4 .img-back {
     width: 100%;
     margin-top: -10px;
+    margin-left: 0px;
   }
 
   .s4 .img-head-prev {
@@ -615,7 +843,7 @@ body {
   }
 
   .s4 .container-fluid {
-    margin-top: -20px;
+    margin-top: -60px;
   }
 
   /* Financial */
@@ -635,5 +863,171 @@ body {
 
   .s5 .container-fluid {
     margin-top: -20px;
+  }
+
+  .fi-by {
+    position: absolute;
+    width: 101px;
+    height: 12px;
+    right: 70px;
+    bottom: 25px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #ffffff;
+  }
+
+  .fi-uncateg {
+    position: absolute;
+    left: 6.41%;
+    right: 5.51%;
+    top: 27.41%;
+    bottom: 27.62%;
+
+    /* Montserrat 8 */
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+
+    color: #473e3e;
+
+    text-transform: uppercase;
+  }
+
+  .fi-div-title {
+    position: absolute;
+    width: 182px;
+    height: 51px;
+    right: 130px;
+    top: 175px;
+  }
+
+  .btn-uncateg {
+    position: absolute;
+    width: 82.88px;
+    height: 22.23px;
+    right: 230px;
+    bottom: 19.77px;
+
+    background: #ffffff;
+    border-radius: 10.1068px;
+    border-style: none;
+  }
+
+  .btn-view-more {
+    position: absolute;
+    width: 198px;
+    height: 53px;
+    top: 24px;
+  }
+
+  .img-home-grad {
+    margin: 0 0 -260px;
+    position: relative;
+  }
+
+  .crop {
+    overflow: hidden;
+    margin-top: 40px;
+  }
+
+  .div-view-more {
+    margin-top: -50px;
+    height: 60px;
+  }
+
+  /* FOOTER */
+  .s6 {
+    position: relative;
+    height: 475px;
+    background: linear-gradient(180deg, #3191a1 0%, #218c66 100%);
+    border-radius: 0px;
+  }
+
+  .s6 .container {
+    margin-top: -500px;
+  }
+
+  .img-logo {
+    position: absolute;
+    width: 175px;
+    height: 126.56px;
+    margin-top: 50px;
+  }
+
+  .fo-div-title {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 40px;
+  }
+
+  .fo-title-contact {
+    margin-top: 20px;
+  }
+
+  .div-ig {
+    position: absolute;
+    width: 158.79px;
+    height: 38.24px;
+    left: 1px;
+    top: 20px;
+  }
+
+  .div-fb {
+    position: absolute;
+    width: 159.24px;
+    height: 38.24px;
+    left: 1px;
+    top: 70px;
+  }
+
+  .div-linkedin {
+    position: absolute;
+    width: 158.79px;
+    height: 38.24px;
+    top: 120px;
+  }
+
+  .img-social {
+    position: absolute;
+    width: 38.24px;
+    height: 38.24px;
+    left: 1px;
+    top: 30px;
+  }
+
+  .fo-social {
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    left: 49.79px;
+    top: 38.28px;
+
+    /* Montserrat 16 */
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+
+  .col-contact {
+    margin-top: 0px;
+  }
+
+  .col-social {
+    margin-top: 0px;
   }
 }
