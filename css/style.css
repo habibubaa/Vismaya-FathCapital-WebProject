@@ -1050,6 +1050,7 @@ body {
   .s5 .img-back {
     width: 100%;
     margin-top: -10px;
+    margin-left: 0px;
   }
 
   .s5 .img-head-prev {
@@ -1132,6 +1133,7 @@ body {
   .img-home-grad {
     margin: 0 0 -260px;
     position: relative;
+    display: inline-block;
   }
 
   .crop {
