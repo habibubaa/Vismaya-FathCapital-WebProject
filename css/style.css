@@ -6,6 +6,10 @@ body {
   display: none;
 }
 
+.s1 {
+  height: auto;
+}
+
 .img-main {
   width: 100%;
   position: absolute;
@@ -15,7 +19,6 @@ body {
 .navbar {
   position: relative;
   z-index: 1;
-  margin-top: -220px;
 }
 
 .nav-item {
@@ -609,10 +612,6 @@ body {
 /* TABLET/PHONE */
 @media (min-width: 576px) {
   /* NAVBAR */
-  .navbar {
-    margin-top: -460px;
-  }
-
   .nav-link {
     font-size: 20px;
   }
@@ -882,11 +881,6 @@ body {
 
 /* DESKTOP */
 @media (min-width: 992px) {
-  /* NAVBAR */
-  .navbar {
-    margin-top: 0px;
-  }
-
   /* HOME */
   .display-4 {
     font-size: 65px;
