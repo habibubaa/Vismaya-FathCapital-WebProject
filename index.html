@@ -36,7 +36,7 @@
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
+                  <a class="nav-link" href="blog.html">Blog</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">About Us</a>
@@ -323,7 +323,7 @@
           </div>
         </div>
         <div class="div-view-more col-12 col-md-12 col-lg-12 d-flex justify-content-center">
-          <button class="btn-view-more"><span class="fi-view-more">view more</span></button>
+          <button class="btn-view-more" onclick="goto_blog()"><span class="fi-view-more">view more</span></button>
         </div>
       </section>
       <!-- END PREVIOUS CLIENT SECTION -->
@@ -508,6 +508,11 @@
           }
         }
       });
+
+      //button view more href
+      function goto_blog() {
+        location.href = "blog.html";
+      }
     </script>
   </body>
 </html>

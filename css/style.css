@@ -607,6 +607,255 @@ body {
   margin-left: -10px;
 }
 
+/*================================================= BLOG CSS ==================================================================*/
+.display-5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 78px;
+
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.div-search {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 390px;
+  height: 35px;
+  left: 40px;
+
+  border: 1px solid #ffffff;
+  border-radius: 36px;
+}
+
+.span-search {
+  position: absolute;
+  width: 149px;
+  height: 20px;
+  left: 10px;
+  top: 6px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  /* Lightgray */
+
+  color: #eeeeee;
+}
+
+.btn-search {
+  position: relative;
+  width: 113px;
+  height: 35px;
+  left: 50px;
+
+  background: linear-gradient(180deg, #e7df3b 0%, #5dc6ae 100%);
+  border-radius: 36px;
+  border-style: none;
+}
+
+.btn-ipo {
+  position: relative;
+  width: 63px;
+  height: 35px;
+  left: 60px;
+  top: calc(50% - 35px / 2 - 921.5px);
+
+  /* Lightgray */
+
+  background: #eeeeee;
+  border-radius: 17.1655px;
+  border-style: none;
+}
+
+.btn-gp {
+  position: relative;
+  width: 114px;
+  height: 35px;
+  left: 70px;
+  top: calc(50% - 35px / 2 - 920.5px);
+
+  /* Lightgray */
+
+  background: #eeeeee;
+  border-radius: 17.1655px;
+  border-style: none;
+}
+
+.btn-prop {
+  position: relative;
+  width: 105px;
+  height: 35px;
+  left: 80px;
+  top: calc(50% - 35px / 2 - 920.5px);
+
+  /* Lightgray */
+
+  background: #eeeeee;
+  border-radius: 17.1655px;
+  border-style: none;
+}
+
+.div-blog-big {
+  width: 415px;
+  height: 367px;
+}
+
+.blog-big-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+
+  color: #ffffff;
+}
+
+.blog-big-date {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0px;
+
+  color: #e0e351;
+}
+
+.blog-big-p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.blog-big-readmore {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #ffffff;
+}
+
+.div-blog-small-title {
+  position: absolute;
+  top: 220px;
+}
+
+.col-blog-small {
+  margin-top: 15px;
+}
+
+.div-blog-small {
+  position: absolute;
+  width: 306px;
+  top: 220px;
+}
+
+.blog-small-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+.blog-small-date {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #e0e351;
+}
+
+.blog-small-p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.blog-small-readmore {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #ffffff;
+}
+
+.s2-blog {
+  margin-top: 50px;
+}
+
+.row-blog-small {
+  margin-top: -400px;
+}
+
+.s3-blog {
+  margin-top: 100px;
+  height: 300px;
+}
+
+.row-blog-small-3 {
+  margin-top: -400px;
+}
+
+.row-pagination {
+  margin-top: 200px;
+}
+
+.block-27 ul {
+  padding: 0;
+  margin: 0;
+}
+.block-27 ul li {
+  display: inline-block;
+  margin-bottom: 4px;
+  font-weight: 400;
+}
+.block-27 ul li a,
+.block-27 ul li span {
+  color: gray;
+  text-align: center;
+  display: inline-block;
+  width: 28.62px;
+  height: 28.62px;
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+.block-27 ul li.active a,
+.block-27 ul li.active span {
+  background: linear-gradient(180deg, #e7df3b 0%, #5dc6ae 100%);
+  color: #101820;
+}
+
 /**********************************************************************************************************************************/
 
 /* TABLET/PHONE */
