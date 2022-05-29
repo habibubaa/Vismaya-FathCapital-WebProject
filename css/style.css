@@ -612,18 +612,18 @@ body {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 64px;
-  line-height: 78px;
+  font-size: 40px;
+  line-height: 50px;
 
   color: #ffffff;
-  margin-top: 10px;
+  margin-top: -10px;
 }
 
 .div-search {
   box-sizing: border-box;
 
   position: relative;
-  width: 390px;
+  width: 168px;
   height: 35px;
   left: 40px;
 
@@ -712,8 +712,8 @@ body {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 78px;
+  font-size: 30px;
+  line-height: 40px;
 
   color: #ffffff;
 }
@@ -754,7 +754,7 @@ body {
 }
 
 .col-blog-small {
-  margin-top: 15px;
+  margin-top: 195px;
 }
 
 .div-blog-small {
@@ -808,16 +808,15 @@ body {
 }
 
 .row-blog-small {
-  margin-top: -400px;
+  margin-top: -191px;
 }
 
 .s3-blog {
-  margin-top: 100px;
-  height: 300px;
+  height: 1337px;
 }
 
 .row-blog-small-3 {
-  margin-top: -400px;
+  margin-top: -160px;
 }
 
 .row-pagination {
@@ -856,18 +855,37 @@ body {
   color: #101820;
 }
 
+.row-search-bar {
+  width: 300px;
+}
+
+.div-search-bar {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -20px;
+}
+
+.div-img-big {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /*================================================= BLOG NEXT PAGE CSS ===========================================================*/
 
 .row-blog-nextpage-small {
-  margin-top: 50px;
+  margin-top: -120px;
 }
 
 .row-blog-nextpage-small-2 {
-  margin-top: -140px;
+  margin-top: -170px;
 }
 
 .row-blog-nextpage-small-3 {
-  margin-top: -200px;
+  margin-top: -156px;
+}
+
+.s3-blog-nextpage {
+  height: 1337px;
 }
 
 /**********************************************************************************************************************************/
@@ -1137,6 +1155,103 @@ body {
 
   .col-social {
     margin-top: 0px;
+  }
+
+  /*========================================================BLOG CSS TABLET============================================================*/
+  .div-search {
+    width: 170px;
+  }
+
+  .div-blog-big {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .s2-blog {
+    margin-top: -200px;
+  }
+
+  .col-blog-small-md {
+    position: absolute;
+    margin-top: 596px;
+  }
+
+  .col-blog-small-md-2 {
+    position: absolute;
+    margin-top: -218px;
+    margin-left: 333px;
+  }
+
+  .row-blog-small-3 {
+    margin-top: -221px;
+  }
+
+  .row-blog-small {
+    margin-top: -400px;
+  }
+
+  .display-5 {
+    font-size: 64px;
+    line-height: 78px;
+    margin-top: 10px;
+  }
+
+  .row-search-bar {
+    width: auto;
+  }
+
+  .div-search-bar {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 290px;
+  }
+
+  .div-img-big {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .blog-big-title {
+    font-size: 64px;
+    line-height: 78px;
+  }
+
+  .s3-blog {
+    margin-top: 100px;
+    height: 300px;
+  }
+
+  /*========================================================== CSS BLOG NEXT TABLET ===========================================*/
+
+  .row-blog-nextpage-small {
+    margin-top: -100px;
+    margin-bottom: 30px;
+  }
+
+  .row-blog-nextpage-small-2 {
+    margin-top: -433px;
+  }
+
+  .row-blog-nextpage-small-3 {
+    margin-top: -635px;
+  }
+
+  .s3-blog-nextpage {
+    margin-top: 0px;
+    height: 500px;
+  }
+
+  .col-blog-next-small-md {
+    position: absolute;
+    margin-top: -215px;
+    margin-left: 351px;
+  }
+
+  .col-blog-next-small-md-2 {
+    position: absolute;
+    margin-top: -218px;
+    margin-left: 333px;
   }
 }
 
@@ -1488,5 +1603,84 @@ body {
 
   .col-social {
     margin-top: 0px;
+  }
+
+  /*============================================ BLOG CSS PC ==============================================================*/
+
+  .div-search {
+    width: 390px;
+  }
+
+  .col-blog-small-md {
+    position: static;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  .col-blog-small-md-2 {
+    position: static;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  .col-blog-small-md .div-blog-small {
+    margin-top: 25px;
+  }
+
+  .col-blog-small-md-2 .div-blog-small {
+    margin-top: -270px;
+  }
+
+  .div-blog-big {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .s2-blog {
+    margin-top: 50px;
+  }
+
+  .row-blog-small-3 {
+    margin-top: -400px;
+  }
+
+  .div-search-bar {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 510px;
+  }
+
+  .col-blog-small {
+    margin-top: 15px;
+  }
+
+  /*=========================================== BLOG NEXT PAGE CSS =========================================================*/
+  .row-blog-nextpage-small {
+    margin-top: 50px;
+  }
+
+  .row-blog-nextpage-small-2 {
+    margin-top: -140px;
+  }
+
+  .row-blog-nextpage-small-3 {
+    margin-top: -200px;
+  }
+
+  .s3-blog-nextpage {
+    margin-top: 30px;
+    height: 500px;
+  }
+
+  .col-blog-next-small-md {
+    position: relative;
+    margin-top: -215px;
+    margin-left: 750px;
+  }
+
+  .col-blog-next-small-md-2 {
+    position: absolute;
+    margin-top: -218px;
+    margin-left: 333px;
   }
 }
