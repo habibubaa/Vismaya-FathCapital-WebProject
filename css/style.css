@@ -888,6 +888,10 @@ body {
   height: 1337px;
 }
 
+.col-blog-nextpage-small {
+  margin-top: 200px;
+}
+
 /**********************************************************************************************************************************/
 
 /* TABLET/PHONE */
@@ -1682,5 +1686,9 @@ body {
     position: absolute;
     margin-top: -218px;
     margin-left: 333px;
+  }
+
+  .s2-blog-nextpage {
+    height: 2000px;
   }
 }
