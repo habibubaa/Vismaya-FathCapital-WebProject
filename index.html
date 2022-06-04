@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Beranda</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
@@ -22,10 +23,15 @@
 
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tablet-style.css" />
+    <link rel="stylesheet" href="css/desktop-style.css" />
   </head>
+
   <body>
     <div id="fullPage">
-      <img src="img/bg-img.png" alt="bg-img.png" class="img-main" />
+      <div class="img-container">
+        <img src="img/bg-img.png" alt="bg-img.png" class="img-main" />
+      </div>
       <section class="vertical-scrolling s1">
         <!-- Start Navbar -->
         <nav class="navbar navbar-expand navbar-light shadow-5-strong">
@@ -49,10 +55,10 @@
           </div>
         </nav>
         <!-- End Navbar -->
-        <div class="container">
-          <h1 class="display-4 col-sm-9 col-md-9 col-lg-9 mx-auto">WE DELIVER SOUND & SPECIALIZE SERVICE</h1>
-          <p class="lead col-sm-7 col-md-7 col-lg-7 mx-auto">Our strength lies in our ability to help clients solving their financial needs and grabbing investment opportunity.</p>
-          <div class="btn-scroll col-1 col-sm-1 col-md-1 col-lg-1 mx-auto d-flex justify-content-center">
+        <div class="container mb-5">
+          <h1 class="display-4 col-12 mx-auto">WE DELIVER SOUND & SPECIALIZE SERVICE</h1>
+          <p class="lead col-9 mx-auto">Our strength lies in our ability to help clients solving their financial needs and grabbing investment opportunity.</p>
+          <div class="btn-scroll col-1 mx-auto">
             <a href="#whatwedo">
               <img src="./img/btn-arrow-down.png" alt="arrow" />
             </a>
@@ -61,15 +67,15 @@
       </section>
 
       <!-- START WHAT WE DO SECTION -->
-      <section class="vertical-scrolling s2 container" id="container-whatwedo">
-        <div class="row g-0">
-          <div class="col-6 col-md-4 col-lg-4 p-0 d-flex align-items-end flex-column">
-            <h1 class="text-wwd mt-auto p-2">
-              What <br />
+      <section class="vertical-scrolling s2 container-fluid" id="container-whatwedo">
+        <div class="row d-flex justify-content-center">
+          <div class="col-6 col-md-4 p-0 d-flex justify-content-end">
+            <h1 class="text-wwd mt-auto pr-5 pb-5">
+              What<br/>
               We Do
             </h1>
           </div>
-          <div class="col-6 col-md-4 col-lg-4 p-0">
+          <div class="col-6 col-md-4 p-0">
             <div class="card card-2" onmouseover="hideTitle(2)" onmouseout="showTitle(2)">
               <img src="./img/img-cfa.png" alt="cfa" />
               <div class="card-img-overlay d-flex align-items-end">
@@ -86,7 +92,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-4 col-lg-4 p-0">
+          <div class="col-6 col-md-4 p-0">
             <div class="card card-3" onmouseover="hideTitle(3)" onmouseout="showTitle(3)">
               <img src="./img/img-crfm.png" alt="crfm" />
               <div class="card-img-overlay d-flex align-items-end">
@@ -96,11 +102,13 @@
                 </h5>
               </div>
               <div class="card-text">
-                <h3><span class="font-weight-bold">Bridging, project financing, hedge funds, equities and bonds, money markets, private equities and property</span> with a wide range of traditional and alternative.</h3>
+                <h3>
+                  <span class="font-weight-bold">Bridging, project financing, hedge funds, equities and bonds, money markets, private equities and property</span> with a wide range of traditional and alternative.
+                </h3>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-4 col-lg-4 p-0">
+          <div class="col-6 col-md-4 p-0">
             <div class="card card-4" onmouseover="hideTitle(4)" onmouseout="showTitle(4)">
               <img src="./img/img-nme.png" alt="nme" />
               <div class="card-img-overlay d-flex align-items-end">
@@ -110,12 +118,13 @@
                 </h5>
               </div>
               <div class="card-text">
-                Provide financial advisory to <span class="font-weight-bold">maximize corporate valuation</span> as well as <span class="font-weight-bold">financial audit</span> and
-                <span class="font-weight-bold">restructuring, due diligence for private investment</span> and <span class="font-weight-bold">IPO/ICO preparation</span>.
+                <h3>
+                  Provide financial advisory to <span class="font-weight-bold">maximize corporate valuation</span> as well as <span class="font-weight-bold">financial audit</span> and <span class="font-weight-bold">restructuring, due diligence for private investment</span> and <span class="font-weight-bold">IPO/ICO preparation</span>.
+                </h3>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-4 col-lg-4 p-0">
+          <div class="col-6 col-md-4 p-0">
             <div class="card card-5" onmouseover="hideTitle(5)" onmouseout="showTitle(5)">
               <img src="./img/img-cdt.png" alt="cdt" />
               <div class="card-img-overlay d-flex align-items-end">
@@ -126,13 +135,12 @@
               </div>
               <div class="card-text">
                 <h3>
-                  Assist diverge corporate actions and commercial deals
-                  <span class="font-weight-bold">such shares stock arrangements, investment/divestment options, merger and acquisition, also deal forensic and dispute investigation</span>.
+                  Assist diverge corporate actions and commercial deals <span class="font-weight-bold">such shares stock arrangements, investment/divestment options, merger and acquisition, also deal forensic and dispute investigation</span>.
                 </h3>
               </div>
             </div>
           </div>
-          <div class="col-6 col-md-4 col-lg-4 p-0">
+          <div class="col-6 col-md-4 p-0">
             <div class="card card-6" onmouseover="hideTitle(6)" onmouseout="showTitle(6)">
               <img src="./img/img-svb.png" alt="svb" />
               <div class="card-img-overlay d-flex align-items-end">
@@ -142,8 +150,9 @@
                 </h5>
               </div>
               <div class="card-text">
-                Provide seed funding, raising growth capital, <span class="font-weight-bold">advance startup business ideas, strengthen the team foundation, and connect and scale up</span> ventures growth to the industrial scale acceptance
-                and series A/B progression until the IPO stage.
+                <h3>
+                  Provide seed funding, raising growth capital, <span class="font-weight-bold">advance startup business ideas, strengthen the team foundation, and connect and scale up</span> ventures growth to the industrial scale acceptance and series A/B progression until the IPO stage.
+                </h3>
               </div>
             </div>
           </div>
@@ -152,71 +161,73 @@
       <!-- END WHAT WE DO SECTION -->
 
       <!-- START WHY US SECTION -->
-      <section class="vertical-scrolling s3">
-        <div class="col-lg-12 p-0">
-          <img src="./img/img-header-why-back.png" alt="whyback" class="img-back" />
-          <div class="col-4" style="margin-left: auto; margin-right: auto">
-            <img src="./img/img-header-why.png" alt="why" class="img-fluid img-head" />
+      <section class="vertical-scrolling s3 container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 p-0">
+            <img src="./img/img-header-why-back.png" alt="whyback" class="img-back" />
+            <div class="col-4 mx-auto img-head">
+              <img src="./img/img-header-why.png" alt="why" />
+            </div>
           </div>
-        </div>
-        <div class="col-10 col-md-6 col-lg-6 container-fluid">
-          <div class="vertical-line">
-            <div class="round-line d-flex flex-column">
-              <div class="row">
-                <div class="dot step1 active-dot">
-                  <div class="timeline-text">
-                    <h3 class="timeline-head th1">Well Known Reputable Advisor</h3>
-                    <h4 class="timeline-body step01">Focus to increase client valuation proposition and firm sitting at their side.</h4>
+          <div class="col-10 col-md-6 mt-5">
+            <div class="vertical-line">
+              <div class="round-line d-flex flex-column">
+                <div class="row">
+                  <div class="dot step1 active-dot">
+                    <div class="timeline-text">
+                      <h3 class="timeline-head th1">Well Known Reputable Advisor</h3>
+                      <h4 class="timeline-body step01">Focus to increase client valuation proposition and firm sitting at their side.</h4>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="dot step2">
-                  <div class="timeline-text">
-                    <h3 class="timeline-head th2">Syariah Expertise</h3>
-                    <h4 class="timeline-body step02" hidden>Experience in syariah financing and fund raising. Our key members are licensed syariah experts by OJK.</h4>
+                <div class="row">
+                  <div class="dot step2">
+                    <div class="timeline-text">
+                      <h3 class="timeline-head th2">Syariah Expertise</h3>
+                      <h4 class="timeline-body step02" hidden>Experience in syariah financing and fund raising. Our key members are licensed syariah experts by OJK.</h4>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="dot step3">
-                  <div class="timeline-text">
-                    <h3 class="timeline-head th3">End-to-End Capital Market Services and Experiences</h3>
-                    <h4 class="timeline-body step03" hidden>FATH Capital served starting from the pre-IPO financing, IPO process, roadshow, until post-IPO corporate actions (maintain share prices, right-issues, backdoor listing).</h4>
+                <div class="row">
+                  <div class="dot step3">
+                    <div class="timeline-text">
+                      <h3 class="timeline-head th3">End-to-End Capital Market Services and Experiences</h3>
+                      <h4 class="timeline-body step03" hidden>FATH Capital served starting from the pre-IPO financing, IPO process, roadshow, until post-IPO corporate actions (maintain share prices, right-issues, backdoor listing).</h4>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="dot step4">
-                  <div class="timeline-text">
-                    <h3 class="timeline-head th4">Well Known Reputable Advisor</h3>
-                    <h4 class="timeline-body step04" hidden>Focus to increase client valuation proposition and firm sitting at their side.</h4>
+                <div class="row">
+                  <div class="dot step4">
+                    <div class="timeline-text">
+                      <h3 class="timeline-head th4">Well Known Reputable Advisor</h3>
+                      <h4 class="timeline-body step04" hidden>Focus to increase client valuation proposition and firm sitting at their side.</h4>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="dot step5">
-                  <div class="timeline-text">
-                    <h3 class="timeline-head th5">Amanah – Trustworth – Iintegrity</h3>
-                    <h4 class="timeline-body step05" hidden>Focus to increase client valuation proposition and firm sitting at their side.</h4>
+                <div class="row">
+                  <div class="dot step5">
+                    <div class="timeline-text">
+                      <h3 class="timeline-head th5">Amanah – Trustworth – Iintegrity</h3>
+                      <h4 class="timeline-body step05" hidden>Focus to increase client valuation proposition and firm sitting at their side.</h4>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="dot step6">
-                  <div class="timeline-text">
-                    <h3 class="timeline-head th6">Extensive Network to Investors</h3>
-                    <h4 class="timeline-body step06" hidden>Access to more than 40 investors with different industries, such as Energy, Mining, HealthCare, Retail, Properties, etc both local and foreigners.</h4>
+                <div class="row">
+                  <div class="dot step6">
+                    <div class="timeline-text">
+                      <h3 class="timeline-head th6">Extensive Network to Investors</h3>
+                      <h4 class="timeline-body step06" hidden>Access to more than 40 investors with different industries, such as Energy, Mining, HealthCare, Retail, Properties, etc both local and foreigners.</h4>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="dot step7">
-                  <div class="timeline-text">
-                    <h3 class="timeline-head th7">Comfort and Save</h3>
-                    <h4 class="timeline-body step07" hidden>
-                      High Compliance and Good Corporate Governance (GCG) practices. FATH Capital also served law enforcement (BPK, KPK, KEJAKSAAN AGUNG, POLICE DEPARTMENT, etc) as their Audit and Financial experts.
-                    </h4>
+                <div class="row">
+                  <div class="dot step7">
+                    <div class="timeline-text">
+                      <h3 class="timeline-head th7">Comfort and Save</h3>
+                      <h4 class="timeline-body step07" hidden>
+                        High Compliance and Good Corporate Governance (GCG) practices. FATH Capital also served law enforcement (BPK, KPK, KEJAKSAAN AGUNG, POLICE DEPARTMENT, etc) as their Audit and Financial experts.
+                      </h4>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -227,143 +238,151 @@
       <!-- END WHY US DO SECTION -->
 
       <!-- START PREVIOUS CLIENT SECTION -->
-      <section class="vertical-scrolling s4">
-        <div class="col-lg-12 p-0">
-          <img src="./img/img-header-prev-back.png" alt="prevback" class="img-back" />
-          <div class="col-4 mx-auto">
-            <img src="./img/img-header-prev.png" alt="why" class="img-fluid img-head-prev" />
-          </div>
-        </div>
-        <div class="container-fluid">
-          <div class="row g-1 row-prev">
-            <div class="col-prev col-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-              <img src="img/img-client-angkasa.png" alt="angkasa" class="img-fluid img-angkasa" />
-            </div>
-            <div class="col-prev col-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-              <img src="img/img-satria.png" alt="satria" class="img-fluid img-satria" />
-            </div>
-            <div class="col-prev col-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-              <img src="img/img-client-pnm.png" alt="pnm" class="img-fluid img-pnm" />
-            </div>
-            <div class="col-prev col-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-              <img src="img/img-client-pln.png" alt="pln" class="img-fluid img-pln" />
-            </div>
-            <div class="col-prev col-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-              <img src="img/img-client-ojk.png" alt="ojk" class="img-fluid img-ojk" />
-            </div>
-            <div class="col-prev col-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-              <img src="img/img-client-mega.png" alt="mega" class="img-fluid img-mega" />
-            </div>
-            <div class="col-prev col-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-              <img src="img/img-client-pertamina.png" alt="pertamina" class="img-fluid img-pertamina" />
-            </div>
-            <div class="col-prev col-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-              <img src="img/img-client-aero.png" alt="aero" class="img-fluid img-aero" />
-            </div>
-            <div class="col-prev col-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-              <img src="img/img-client-idx.png" alt="idx" class="img-fluid img-idx" />
+      <section class="vertical-scrolling s4 container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 p-0">
+            <img src="./img/img-header-prev-back.png" alt="prevback" class="img-back" />
+            <div class="col-4 mx-auto img-head">
+              <img src="./img/img-header-prev.png" alt="prev" />
             </div>
           </div>
-          <div class="row mt-2">
-            <div class="col-12 d-flex justify-content-center align-items-center">
-              <span class="text-partner">Official Partner :</span>
-            </div>
-          </div>
-          <div class="row g-1 mt-2 d-flex justify-content-center align-items-center">
-            <div class="col-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-              <div class="col-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-                <img src="img/img-client-g20.png" alt="g20" class="img-g20" />
+          <div class="col-10 mt-5">
+            <div class="row row-cols-3 row-cols-md-5 d-flex justify-content-center">
+              <div class="col d-flex justify-content-center align-items-center">
+                <img src="img/img-client-angkasa.png" alt="angkasa" class="img-fluid" />
               </div>
-              <div class="col-6 col-md-4 col-lg-4 d-flex justify-content-center align-items-center">
-                <img src="img/img-client-wbaf.png" alt="wbaf" class="img-wbaf" />
+              <div class="col d-flex justify-content-center align-items-center">
+                <img src="img/img-satria.png" alt="satria" class="img-fluid" />
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <img src="img/img-client-pnm.png" alt="pnm" class="img-fluid" />
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <img src="img/img-client-pln.png" alt="pln" class="img-fluid" />
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <img src="img/img-client-ojk.png" alt="ojk" class="img-fluid" />
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <img src="img/img-client-mega.png" alt="mega" class="img-fluid" />
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <img src="img/img-client-pertamina.png" alt="pertamina" class="img-fluid" />
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <img src="img/img-client-aero.png" alt="aero" class="img-fluid" />
+              </div>
+              <div class="col d-flex justify-content-center align-items-center">
+                <img src="img/img-client-idx.png" alt="idx" class="img-fluid" />
+              </div>
+            </div>
+            <div class="row mt-5 d-flex justify-content-center align-items-center">
+              <div class="col-12 mb-3 col-sm-6 col-md-3 d-flex justify-content-center align-items-center">
+                <span class="text-partner">Official Partner :</span>
+              </div>
+              <div class="col-3 col-md-1 d-flex justify-content-center align-items-center">
+                <img src="img/img-client-g20.png" alt="g20" class="img-fluid" />
+              </div>
+              <div class="col-3 col-md-1 d-flex justify-content-center align-items-center">
+                <img src="img/img-client-wbaf.png" alt="wbaf" class="img-fluid" />
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- START PREVIOUS CLIENT SECTION -->
-
-      <!-- START PREVIOUS CLIENT SECTION -->
-      <section class="vertical-scrolling s5">
-        <div class="col-lg-12 p-0">
-          <img src="./img/img-header-financial-back.png" alt="finback" class="img-back" />
-          <div class="col-4 mx-auto">
-            <img src="./img/img-header-financial.png" alt="why" class="img-fluid img-head-prev" />
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-prev col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-              <img src="img/img-home-bg.png" alt="home-bg" class="img-fluid img-home" />
-              <span class="fi-by">by <span style="font-weight: 700">capt_fathcapital</span></span>
-              <button class="btn-uncateg"><span class="fi-uncateg">uncategorized</span></button>
-              <div class="fi-div-title"><span class="fi-date">April 8, 2020</span><br /><span class="fi-title">IPO Karya Bersama Anugerah</span></div>
-            </div>
-            <div class="col-prev col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-              <img src="img/img-home-bg.png" alt="home-bg" class="img-fluid img-home" />
-              <span class="fi-by">by <span style="font-weight: 700">capt_fathcapital</span></span>
-              <button class="btn-uncateg"><span class="fi-uncateg">uncategorized</span></button>
-              <div class="fi-div-title"><span class="fi-date">April 8, 2020</span><br /><span class="fi-title">IPO Karya Bersama Anugerah</span></div>
-            </div>
-            <div class="col-prev col-12 col-md-6 col-lg-4 d-flex justify-content-center">
-              <img src="img/img-home-bg.png" alt="home-bg" class="img-fluid img-home" />
-              <span class="fi-by">by <span style="font-weight: 700">capt_fathcapital</span></span>
-              <button class="btn-uncateg"><span class="fi-uncateg">uncategorized</span></button>
-              <div class="fi-div-title"><span class="fi-date">April 8, 2020</span><br /><span class="fi-title">IPO Karya Bersama Anugerah</span></div>
-            </div>
-            <div class="col-prev crop col-6 col-md-8 col-lg-4 d-flex justify-content-center">
-              <img src="img/img-home-bg.png" alt="home-bg" class="img-fluid img-home-grad" />
-            </div>
-            <div class="col-prev crop col-6 col-md-8 col-lg-4 d-flex justify-content-center">
-              <img src="img/img-home-bg.png" alt="home-bg" class="img-fluid img-home-grad" />
-            </div>
-            <div class="col-prev crop col-6 col-md-8 col-lg-4 d-flex justify-content-center">
-              <img src="img/img-home-bg.png" alt="home-bg" class="img-fluid img-home-grad" />
-            </div>
-          </div>
-        </div>
-        <div class="div-view-more col-12 col-md-12 col-lg-12 d-flex justify-content-center">
-          <button class="btn-view-more" onclick="goto_blog()"><span class="fi-view-more">view more</span></button>
         </div>
       </section>
       <!-- END PREVIOUS CLIENT SECTION -->
 
-      <!-- START FOOTER SECTION -->
-      <section class="vertical-scrolling s6">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <img src="img/img-logo.png" alt="img-logo" class="img-fluid img-logo" />
+      <!-- START FINANCIAL INSIGHT SECTION -->
+      <section class="vertical-scrolling s5 container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 p-0">
+            <img src="./img/img-header-financial-back.png" alt="finback" class="img-back" />
+            <div class="col-4 mx-auto img-head">
+              <img src="./img/img-header-financial.png" alt="why" />
             </div>
           </div>
-          <div class="row">
-            <div class="col-foot col-12 col-md-4 col-lg-4 d-flex justify-content-center">
-              <div class="fo-div-title">
-                <span class="fo-title">Jakarta Office :</span><br /><span class="fo-sub-title">Indonesia Stock Exchange Tower 2, 17th Floor Jl. Jend. Sudirman Kav. 52-53, Jakarta 12190, Indonesia</span><br />
-                <br /><span class="fo-title">Singapore Office :</span><br /><span class="fo-sub-title"
-                  >Singapore Land Tower 37th Floor 50 Raffles Place <br />
-                  Singapore 048623</span
-                >
+          <div class="col-10 mt-5">
+            <div class="row d-flex justify-content-center">
+              <div class="col-12 col-md-4 d-flex justify-content-center insight" style="background:url(img/img-home-bg.png) center center / cover no-repeat;">
+                <div class="insight-meta">
+                  <span class="fi-by">by <span style="font-weight: 700">capt_fathcapital</span></span>
+                  <button class="btn btn-uncateg"><span class="fi-uncateg">uncategorized</span></button>
+                  <div class="fi-div-title"><span class="fi-date">April 8, 2020</span><br /><span class="fi-title">IPO Karya Bersama Anugerah</span></div>
+                </div>
               </div>
-            </div>
-            <div class="col-foot col-contact col-12 col-md-4 col-lg-4 d-flex justify-content-center">
-              <div class="fo-div-title">
-                <span class="fo-title">Plaza Simatupang</span><br /><span class="fo-sub-title">TB. Simatupang KAV IS No.1 Jakarta 12310, Indonesia</span><br /><br />
-                <div class="fo-title-contact">
-                  <span class="fo-title">Contact</span><br /><span class="fo-sub-title"
-                    >Email: info@fathcapital.com <br />
-                    Tel: +6221 5157613
-                  </span>
+              <div class="col-12 col-md-4 d-flex justify-content-center insight" style="background:url(img/img-home-bg.png) center center / cover no-repeat;">
+                <div class="insight-meta">
+                  <span class="fi-by">by <span style="font-weight: 700">capt_fathcapital</span></span>
+                  <button class="btn btn-uncateg"><span class="fi-uncateg">uncategorized</span></button>
+                  <div class="fi-div-title"><span class="fi-date">April 8, 2020</span><br /><span class="fi-title">IPO Karya Bersama Anugerah</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 d-flex justify-content-center insight" style="background:url(img/img-home-bg.png) center center / cover no-repeat;">
+                <div class="insight-meta">
+                  <span class="fi-by">by <span style="font-weight: 700">capt_fathcapital</span></span>
+                  <button class="btn btn-uncateg"><span class="fi-uncateg">uncategorized</span></button>
+                  <div class="fi-div-title"><span class="fi-date">April 8, 2020</span><br /><span class="fi-title">IPO Karya Bersama Anugerah</span></div>
                 </div>
               </div>
             </div>
-            <div class="col-foot col-social col-12 col-md-4 col-lg-4 d-flex justify-content-start">
-              <div class="fo-div-title">
-                <span class="fo-title">Follow Us on Social Media</span><br />
-                <div class="div-ig"><img src="img/img-social-ig.png" alt="ig" class="img-social" /><span class="fo-social">@fath_capital</span></div>
-                <div class="div-fb"><img src="img/img-social-fb.png" alt="ig" class="img-social" /><span class="fo-social">@fath_capital</span></div>
-                <div class="div-linkedin"><img src="img/img-social-linkedin.png" alt="ig" class="img-social" /><span class="fo-social">@fath_capital</span></div>
+            <div class="row d-flex justify-content-center hide-on-mobile">
+              <div class="col-12 col-md-4 d-flex justify-content-center crop-div">
+                <div class="crop-insight" style="background:linear-gradient(rgba(16, 24, 32, 0) 0%, rgb(16, 24, 32) 35%),
+                url('img/img-home-bg.png') center center / cover no-repeat;"></div>
               </div>
+              <div class="col-12 col-md-4 d-flex justify-content-center crop-div">
+                <div class="crop-insight" style="background:linear-gradient(rgba(16, 24, 32, 0) 0%, rgb(16, 24, 32) 35%),
+                url('img/img-home-bg.png') center center / cover no-repeat;"></div>
+              </div>
+              <div class="col-12 col-md-4 d-flex justify-content-center crop-div">
+                <div class="crop-insight" style="background:linear-gradient(rgba(16, 24, 32, 0) 0%, rgb(16, 24, 32) 35%),
+                url('img/img-home-bg.png') center center / cover no-repeat;"></div>
+              </div>
+            </div>
+            <div class="row d-flex justify-content-center div-view-more mb-4">
+              <div class="col-3 d-flex justify-content-center align-items-center mx-auto">
+                <button class="btn-view-more" onclick="goto_blog()"><span class="fi-view-more">view more</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END FINANCIAL INSIGHT SECTION -->
+
+      <!-- START FOOTER SECTION -->
+      <section class="vertical-scrolling s6 container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 mb-4">
+            <img src="img/img-logo.png" alt="img-logo" class="img-fluid img-logo" />
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-sm-4 mb-4 d-flex justify-content-start">
+            <div class="fo-div-title">
+              <span class="fo-title">Jakarta Office :</span><br /><span class="fo-sub-title">Indonesia Stock Exchange Tower 2, 17th Floor Jl. Jend. Sudirman Kav. 52-53, Jakarta 12190, Indonesia</span><br />
+              <br /><span class="fo-title">Singapore Office :</span><br /><span class="fo-sub-title"
+                >Singapore Land Tower 37th Floor 50 Raffles Place <br />
+                Singapore 048623</span
+              >
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 mb-4 d-flex justify-content-start">
+            <div class="fo-div-title">
+              <span class="fo-title">Plaza Simatupang</span><br /><span class="fo-sub-title">TB. Simatupang KAV IS No.1 Jakarta 12310, Indonesia</span><br /><br />
+              <div class="fo-title-contact">
+                <span class="fo-title">Contact</span><br /><span class="fo-sub-title"
+                  >Email: info@fathcapital.com <br />
+                  Tel: +6221 5157613
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 mb-4 d-flex justify-content-start">
+            <div class="fo-div-title">
+              <span class="fo-title">Follow Us on Social Media</span><br />
+              <div class="div-ig"><img src="img/img-social-ig.png" alt="ig" class="img-social" /><span class="fo-social">@fath_capital</span></div>
+              <div class="div-fb"><img src="img/img-social-fb.png" alt="ig" class="img-social" /><span class="fo-social">@fath_capital</span></div>
+              <div class="div-linkedin"><img src="img/img-social-linkedin.png" alt="ig" class="img-social" /><span class="fo-social">@fath_capital</span></div>
             </div>
           </div>
         </div>
@@ -395,7 +414,7 @@
     <script>
       new fullpage("#fullPage", {
         autoScrolling: true,
-        //navigation: true,
+        navigation: true,
         sectionSelector: ".vertical-scrolling",
         anchors: ["main", "whatwedo", "whyus", "previousclient", "financialinsight", "footer"],
       });

@@ -1,0 +1,267 @@
+/*================================================= BLOG CSS ==================================================================*/
+.display-5 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+  margin-top: -10px;
+}
+
+.div-search {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  position: relative;
+  width: 168px;
+  height: 35px;
+  left: 40px;
+
+  border: 1px solid #ffffff;
+  border-radius: 36px;
+}
+
+.span-search {
+  position: absolute;
+  width: 149px;
+  height: 20px;
+  left: 10px;
+  top: 6px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  /* Lightgray */
+
+  color: #eeeeee;
+}
+
+.btn-search {
+  position: relative;
+  width: 113px;
+  height: 35px;
+  left: 50px;
+
+  background: -o-linear-gradient(top, #e7df3b 0%, #5dc6ae 100%);
+
+  background: -webkit-gradient(linear, left top, left bottom, from(#e7df3b), to(#5dc6ae));
+
+  background: linear-gradient(180deg, #e7df3b 0%, #5dc6ae 100%);
+  border-radius: 36px;
+  border-style: none;
+}
+
+.btn-ipo {
+  position: relative;
+  width: 63px;
+  height: 35px;
+  left: 60px;
+  top: calc(50% - 35px / 2 - 921.5px);
+
+  /* Lightgray */
+
+  background: #eeeeee;
+  border-radius: 17.1655px;
+  border-style: none;
+}
+
+.btn-gp {
+  position: relative;
+  width: 114px;
+  height: 35px;
+  left: 70px;
+  top: calc(50% - 35px / 2 - 920.5px);
+
+  /* Lightgray */
+
+  background: #eeeeee;
+  border-radius: 17.1655px;
+  border-style: none;
+}
+
+.btn-prop {
+  position: relative;
+  width: 105px;
+  height: 35px;
+  left: 80px;
+  top: calc(50% - 35px / 2 - 920.5px);
+
+  /* Lightgray */
+
+  background: #eeeeee;
+  border-radius: 17.1655px;
+  border-style: none;
+}
+
+.div-blog-big {
+  width: 415px;
+  height: 367px;
+}
+
+.blog-big-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+
+  color: #ffffff;
+}
+
+.blog-big-date {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0px;
+
+  color: #e0e351;
+}
+
+.blog-big-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.blog-big-readmore {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #ffffff;
+}
+
+.div-blog-small-title {
+  position: absolute;
+  top: 220px;
+}
+
+.col-blog-small {
+  margin-top: 195px;
+}
+
+.div-blog-small {
+  position: absolute;
+  width: 306px;
+  top: 220px;
+}
+
+.blog-small-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+.blog-small-date {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #e0e351;
+}
+
+.blog-small-p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+}
+
+.blog-small-readmore {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #ffffff;
+}
+
+.s2-blog {
+  margin-top: 50px;
+}
+
+.row-blog-small {
+  margin-top: -191px;
+}
+
+.s3-blog {
+  height: 1337px;
+}
+
+.row-blog-small-3 {
+  margin-top: -160px;
+}
+
+.row-pagination {
+  margin-top: 200px;
+}
+
+.block-27 ul {
+  padding: 0;
+  margin: 0;
+}
+.block-27 ul li {
+  display: inline-block;
+  margin-bottom: 4px;
+  font-weight: 400;
+}
+.block-27 ul li a,
+.block-27 ul li span {
+  color: gray;
+  text-align: center;
+  display: inline-block;
+  width: 28.62px;
+  height: 28.62px;
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+.block-27 ul li.active a,
+.block-27 ul li.active span {
+  background: -o-linear-gradient(top, #e7df3b 0%, #5dc6ae 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#e7df3b), to(#5dc6ae));
+  background: linear-gradient(180deg, #e7df3b 0%, #5dc6ae 100%);
+  color: #101820;
+}
+
+.row-search-bar {
+  width: 300px;
+}
+
+.div-search-bar {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -20px;
+}
+
+.div-img-big {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*================================================= BLOG NEXT PAGE CSS ===========================================================*/
+
+.row-blog-nextpage-small {
+  margin-top: -120px;
+}
+
+.row-blog-nextpage-small-2 {
+  margin-top: -170px;
+}
+
+.row-blog-nextpage-small-3 {
+  margin-top: -156px;
+}
+
+.s3-blog-nextpage {
+  height: 1337px;
+}
+
+/**********************************************************************************************************************************/

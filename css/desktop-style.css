@@ -1,0 +1,317 @@
+/* DESKTOP */
+@media (min-width: 992px) {
+    /*=========================================== ROOT BODY ===========================================*/
+
+  /* body {
+  } */
+
+  /*=========================================== fullpage.js ===========================================*/
+
+  /* HOME */
+  .display-4 {
+    font-size: 65px;
+  }
+
+  .lead {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .btn-scroll {
+    padding-top: 10px 0 0;
+  }
+
+  /* NAVBAR */
+  .nav-link {
+    font-size: 1.25rem;
+  }
+
+  .nav-item {
+    padding-left: 16px;
+  }
+
+  /* JUMBOTRON */
+  .jumbotron {
+    height: 1025px;
+    margin-top: -65px;
+  }
+
+  /* CARD */
+  /* WHAT WE DO - CARD */
+  .s2 {
+    margin-top: 200px;
+  }
+
+  .text-wwd {
+    font-size: 65px;
+    line-height: 73px;
+    text-align: right;
+  }
+
+  .card-text {
+    top: -100%;
+    left: 0;
+  }
+
+  .card:hover .card-text {
+    top: 100px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* WHY */
+  /* .s3 .img-back {
+  } */
+
+  .s3 .img-fluid {
+    max-width: 100%;
+  }
+
+  .s3 .container-fluid {
+    margin-top: -20px;
+  }
+
+  .vertical-line {
+    width: 9px;
+    height: 432px;
+    border-radius: 20px;
+  }
+
+  .round-line {
+    margin-left: -2px;
+  }
+
+  .dot {
+    height: 42px;
+    width: 42px;
+    background: #424242;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+
+  .active-dot {
+    background: -o-linear-gradient(top, #e7df3b 0%, #5dc6ae 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#e7df3b), to(#5dc6ae));
+    background: linear-gradient(180deg, #e7df3b 0%, #5dc6ae 100%);
+    margin-bottom: 70px;
+  }
+
+  .timeline-head {
+    width: 700px;
+  }
+
+  .timeline-body {
+    width: 700px;
+  }
+
+  .timeline-text {
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+
+  .active-text {
+    margin-top: -20px;
+    margin-left: 90px;
+  }
+
+  .dot:hover {
+    background: #5dc6ae;
+  }
+
+  .dot.step1.active-dot {
+    margin-bottom: 50px;
+  }
+
+  .dot.step3.active-dot {
+    margin-bottom: 70px;
+  }
+
+  .dot.step5.active-dot {
+    margin-bottom: 70px;
+  }
+
+  .dot.step6.active-dot {
+    margin-bottom: 70px;
+  }
+
+  /* WHY */
+  /* .s4 .img-back {
+  } */
+
+  .s4 .container-fluid {
+    margin-top: -60px;
+  }
+
+  /* Financial */
+  /* .s5 .img-back {
+  }
+
+  .s5 .img-fluid {
+    max-width: 130%;
+  }
+
+  .s5 .container-fluid {
+    margin-top: -20px;
+  }
+
+  .fi-by {
+    position: absolute;
+    width: 101px;
+    height: 12px;
+    right: 70px;
+    bottom: 25px;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #ffffff;
+  }
+
+  .fi-uncateg {
+    position: absolute;
+    left: 6.41%;
+    right: 5.51%;
+    top: 27.41%;
+    bottom: 27.62%;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 10px;
+    color: #473e3e;
+
+    text-transform: uppercase;
+  }
+
+  .fi-div-title {
+    position: absolute;
+    width: 182px;
+    height: 51px;
+    right: 130px;
+    top: 175px;
+  }
+
+  .btn-uncateg {
+    position: absolute;
+    width: 82.88px;
+    height: 22.23px;
+    right: 230px;
+    bottom: 19.77px;
+
+    background: #ffffff;
+    border-radius: 10.1068px;
+    border-style: none;
+  }
+
+  .btn-view-more {
+  }
+
+  .img-home-grad {
+    margin: 0 0 -260px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .crop {
+    overflow: hidden;
+    margin-top: 40px;
+  } */
+
+  /* FOOTER */
+  /* .s6 {
+  } */
+
+  /* .s6 .container {
+    margin-top: -500px;
+  }
+
+  .img-logo {
+    position: absolute;
+    width: 175px;
+    height: 126.56px;
+    margin-top: 50px;
+  }
+
+  .fo-div-title {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 40px;
+  }
+
+  .fo-title-contact {
+    margin-top: 20px;
+  }
+
+  .div-ig {
+    position: absolute;
+    width: 158.79px;
+    height: 38.24px;
+    left: 1px;
+    top: 20px;
+  }
+
+  .div-fb {
+    position: absolute;
+    width: 159.24px;
+    height: 38.24px;
+    left: 1px;
+    top: 70px;
+  }
+
+  .div-linkedin {
+    position: absolute;
+    width: 158.79px;
+    height: 38.24px;
+    top: 120px;
+  }
+
+  .img-social {
+    position: absolute;
+    width: 38.24px;
+    height: 38.24px;
+    left: 1px;
+    top: 30px;
+  } */
+
+  /* .fo-social {
+    position: absolute;
+    width: 110px;
+    height: 20px;
+    left: 49.79px;
+    top: 38.28px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+  } */
+
+  /* .col-contact {
+    margin-top: 0px;
+  }
+
+  .col-social {
+    margin-top: 0px;
+  } */
+}
+
+@media (min-width: 1315px) {
+  .div-view-more {
+    margin-top: -105px;
+  }
+
+  .hide-on-mobile {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
