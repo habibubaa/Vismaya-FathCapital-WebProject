@@ -1,0 +1,100 @@
+@media (min-width: 576px) {
+  /*========================================================BLOG CSS TABLET============================================================*/
+  .div-search {
+    width: 170px;
+  }
+
+  .div-blog-big {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .s2-blog {
+    margin-top: -200px;
+  }
+
+  .col-blog-small-md {
+    position: absolute;
+    margin-top: 596px;
+  }
+
+  .col-blog-small-md-2 {
+    position: absolute;
+    margin-top: -218px;
+    margin-left: 333px;
+  }
+
+  .row-blog-small-3 {
+    margin-top: -221px;
+  }
+
+  .row-blog-small {
+    margin-top: -400px;
+  }
+
+  .display-5 {
+    font-size: 64px;
+    line-height: 78px;
+    margin-top: 10px;
+  }
+
+  .row-search-bar {
+    width: auto;
+  }
+
+  .div-search-bar {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 290px;
+  }
+
+  .div-img-big {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .blog-big-title {
+    font-size: 64px;
+    line-height: 78px;
+  }
+
+  .s3-blog {
+    margin-top: 100px;
+    height: 300px;
+  }
+
+  /*========================================================== CSS BLOG NEXT TABLET ===========================================*/
+
+  .row-blog-nextpage-small {
+    margin-top: -100px;
+    margin-bottom: 30px;
+  }
+
+  .row-blog-nextpage-small-2 {
+    margin-top: -433px;
+  }
+
+  .row-blog-nextpage-small-3 {
+    margin-top: -635px;
+  }
+
+  .s3-blog-nextpage {
+    margin-top: 0px;
+    height: 500px;
+  }
+
+  .col-blog-next-small-md {
+    position: absolute;
+    margin-top: -215px;
+    margin-left: 351px;
+  }
+
+  .col-blog-next-small-md-2 {
+    position: absolute;
+    margin-top: -218px;
+    margin-left: 333px;
+  }
+}
+
+/**********************************************************************************************************************************/
