@@ -1,0 +1,17 @@
+/**********************************************************************************************************************************/
+
+/* DESKTOP */
+@media (min-width: 992px) {
+  .row-blog-nextpage-small-2-non {
+    margin-top: -140px;
+  }
+
+  .s6-nextpage-non {
+    height: 475px;
+  }
+
+  .blog-detail-social {
+    display: flex;
+    justify-content: center;
+  }
+}

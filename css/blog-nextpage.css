@@ -1,0 +1,29 @@
+/*================================================= BLOG NEXT PAGE CSS ===========================================================*/
+
+.s1-blog-nextpage {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex !important;
+}
+
+.container-blog-nextpage-content {
+  margin-top: -200px;
+}
+
+.row-blog-nextpage-small {
+  margin-top: -120px;
+}
+
+.row-blog-nextpage-small-2 {
+  margin-top: -170px;
+}
+
+.row-blog-nextpage-small-3 {
+  margin-top: -156px;
+}
+
+.s3-blog-nextpage {
+  height: 1337px;
+}

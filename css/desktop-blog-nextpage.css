@@ -1,0 +1,33 @@
+/* DESKTOP */
+@media (min-width: 992px) {
+    /*=========================================== BLOG NEXT PAGE CSS =========================================================*/
+
+    .row-blog-nextpage-small {
+        margin-top: 50px;
+    }
+
+    .row-blog-nextpage-small-2 {
+        margin-top: -140px;
+    }
+
+    .row-blog-nextpage-small-3 {
+        margin-top: -200px;
+    }
+
+    .s3-blog-nextpage {
+        margin-top: 30px;
+        height: 500px;
+    }
+
+    .col-blog-next-small-md {
+        position: relative;
+        margin-top: -215px;
+        margin-left: 750px;
+    }
+
+    .col-blog-next-small-md-2 {
+        position: absolute;
+        margin-top: -218px;
+        margin-left: 333px;
+    }
+}
