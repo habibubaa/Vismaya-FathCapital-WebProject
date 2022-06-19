@@ -1,0 +1,170 @@
+/*================================================= BLOG NEXT PAGE CSS ===========================================================*/
+
+.img-main-about {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  margin-top: -60px;
+}
+
+.col-about-us {
+  margin-top: 200px;
+}
+
+.about-us-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: justify;
+
+  color: #ffffff;
+}
+
+.about-us-desc {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+
+  color: #ffffff;
+}
+
+.div-about-us-title {
+  margin-top: 60px;
+}
+
+.div-about-us-desc {
+  margin-top: 50px;
+}
+
+.s2-blog-detail {
+  margin-top: -150px;
+}
+
+.s3-blog-detail {
+  margin-top: 100px;
+}
+
+.carousel-number-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+}
+
+.carousel-numberper-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+.carousel-title-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.carousel-line {
+  position: absolute;
+  width: 154.67px;
+  height: 3px;
+  top: 99.45px;
+
+  background: #ffffff;
+  border-radius: 8.22695px;
+}
+
+.carousel-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  margin-top: 30px;
+
+  color: #ffffff;
+}
+
+.carousel-indicators li {
+  box-sizing: border-box;
+  width: 55px;
+  height: 55px;
+  border-radius: 40%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.text-indicator {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31.1533px;
+  line-height: 38px;
+  color: #ffffff;
+  text-align: center;
+  text-indent: 0;
+}
+
+.carousel-indicators .active {
+  background-color: #214974;
+  height: 100%;
+}
+
+.carousel-indicators .active .text-indicator {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 41px;
+  line-height: 40px;
+  margin-top: 5px;
+
+  background: linear-gradient(180deg, #e7df3b 0%, #5dc6ae 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.carousel-inner {
+  height: 540px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 33px;
+  height: 32px;
+  background: rgba(92, 92, 92, 0.5);
+  top: 30px !important;
+  bottom: auto;
+}
+
+.carousel-control-next {
+  right: 30px !important;
+  left: auto;
+}
+
+.carousel-control-prev {
+  right: calc(30px + 30px + 10px) !important;
+  left: auto;
+}
+
+.s6 {
+  position: relative;
+  margin-top: 60px;
+}
