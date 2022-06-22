@@ -1,5 +1,4 @@
 /*================================================= BLOG NEXT PAGE CSS ===========================================================*/
-
 .img-main-about {
   position: absolute;
   width: 100%;
@@ -138,7 +137,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .carousel-inner {
@@ -166,5 +164,6 @@
 
 .s6 {
   position: relative;
-  margin-top: 60px;
+  bottom: 0;
+  top: auto;
 }
