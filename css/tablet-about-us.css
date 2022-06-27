@@ -1,2 +1,27 @@
 @media (min-width: 576px) {
+  .img-main-about {
+    width: 150%;
+    left: 25%;
+    margin-top: -80px;
+  }
+
+  .col-about-us {
+    margin-top: 290px;
+  }
+
+  .div-about-us-desc {
+    margin-top: 300px;
+  }
+
+  .s2-blog-detail {
+    margin-top: -150px;
+  }
+
+  .s3-blog-detail {
+    margin-top: -179px;
+  }
+
+  .carousel-inner {
+    height: 600px;
+  }
 }
