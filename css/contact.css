@@ -52,11 +52,6 @@
   margin-bottom: 50px;
 }
 
-.row-input-contact {
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
 .container-input-contact {
   margin-top: 30px;
 }
@@ -91,7 +86,7 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
 
   color: #424242;
@@ -110,8 +105,31 @@
   margin-bottom: 7px;
 }
 
+.row-input-contact {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .s6 {
   position: relative;
   bottom: 0;
   top: auto;
+}
+
+.btn-submit {
+  position: relative;
+  width: 191px;
+  height: 33px;
+  background: #101820;
+  border-radius: 5px;
+  border-style: none;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
 }
