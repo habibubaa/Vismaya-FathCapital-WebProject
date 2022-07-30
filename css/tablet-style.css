@@ -7,10 +7,29 @@
   /* .hide-on-mobile {
   } */
 
+  .header {
+    font-size: 72px;
+    font-size: 8vw;
+  }
+
+  
+/* .navbar-brand {
+} */
+
+  
+.no-desktop {
+  display: block;
+}
+
+
   /*=========================================== fullpage.js ===========================================*/
 
   /* .fp-watermark {
   } */
+
+  #fp-nav {
+    display: block;
+  }
 
   /* #fp-nav ul li a span,
   .fp-slidesNav ul li a span {
@@ -80,6 +99,10 @@
     margin-top: 0px;
   }
 
+  .s2 .card {
+    height: calc(95vh/2);
+  }
+
   .text-wwd {
     font-size: 2.5rem;
   }
@@ -104,6 +127,7 @@
 
   .card-text h3 {
     max-width: initial;
+    font-size: 1rem;
   }
 
   /* .card:hover .card-text {
@@ -153,19 +177,7 @@
   } */
 
   .active-dot {
-    margin-bottom: 70px;
-  }
-
-  .dot.step3.active-dot {
-    margin-bottom: 120px;
-  }
-
-  .dot.step5.active-dot {
-    margin-bottom: 70px;
-  }
-
-  .dot.step6.active-dot {
-    margin-bottom: 70px;
+    margin-bottom: 72px;
   }
 
   .timeline-head {
@@ -262,8 +274,15 @@
   /* .fi-uncateg {
   } */
   
-  /* .btn-view-more {
-  } */
+  .btn-view-more {
+    background: #ffffff;
+    min-width: 160px;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    border-style: none;
+  }
 
   .img-insight-grad {
     display: none;
@@ -272,8 +291,12 @@
   /* .crop {
   } */
 
-  /* .fi-view-more {
-  } */
+  .fi-view-more {
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #214974;
+  }
 
   /* .div-view-more {
   } */
@@ -295,8 +318,17 @@
     margin-top: 220px;
   } */
 
-  /* .fo-sub-title {
-  } */
+  .fo-title {
+    font-size: 16px;
+  }
+
+  .fo-sub-title {
+    font-size: 16px;
+  }
+
+  .fo-social {
+    font-size: 16px;
+  }
 
   .fo-title-contact {
     margin-top: 20px;

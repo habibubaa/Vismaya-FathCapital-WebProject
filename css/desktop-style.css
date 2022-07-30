@@ -5,6 +5,34 @@
   /* body {
   } */
 
+  .header {
+    font-size: 96px;
+    font-size: 8vw;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-nav {
+    margin-left: auto!important;
+    margin-right: auto!important;
+  }
+
+  .navbar-collapse ul.navbar-nav {
+  background-color: inherit;
+  width: inherit;
+  }
+
+  .only-desktop {
+    display: block;
+  }
+
+  .no-desktop {
+    display: none;
+  }
+
+
   /*=========================================== fullpage.js ===========================================*/
 
   /* HOME */
@@ -40,6 +68,10 @@
   /* WHAT WE DO - CARD */
   .s2 {
     margin-top: 200px;
+  }
+
+  .s2 .card {
+    height: calc(99vh/2);
   }
 
   .text-wwd {
@@ -98,7 +130,7 @@
     background: -o-linear-gradient(top, #e7df3b 0%, #5dc6ae 100%);
     background: -webkit-gradient(linear, left top, left bottom, from(#e7df3b), to(#5dc6ae));
     background: linear-gradient(180deg, #e7df3b 0%, #5dc6ae 100%);
-    margin-bottom: 70px;
+    margin-bottom: 52px;
   }
 
   .timeline-head {
@@ -117,26 +149,6 @@
   .active-text {
     margin-top: -20px;
     margin-left: 90px;
-  }
-
-  .dot:hover {
-    background: #5dc6ae;
-  }
-
-  .dot.step1.active-dot {
-    margin-bottom: 50px;
-  }
-
-  .dot.step3.active-dot {
-    margin-bottom: 70px;
-  }
-
-  .dot.step5.active-dot {
-    margin-bottom: 70px;
-  }
-
-  .dot.step6.active-dot {
-    margin-bottom: 70px;
   }
 
   /* WHY */
