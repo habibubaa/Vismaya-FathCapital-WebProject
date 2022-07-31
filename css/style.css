@@ -40,11 +40,11 @@ body {
 }
 
 .only-desktop {
-  display: none;
+  display: none !important;
 }
 
 .no-desktop {
-  display: bloxk;
+  display: block !important;
 }
 
 /*=========================================== fullpage.js ===========================================*/

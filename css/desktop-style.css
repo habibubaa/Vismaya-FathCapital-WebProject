@@ -25,11 +25,11 @@
   }
 
   .only-desktop {
-    display: block;
+    display: block !important;
   }
 
   .no-desktop {
-    display: none;
+    display: none!important;
   }
 
 
