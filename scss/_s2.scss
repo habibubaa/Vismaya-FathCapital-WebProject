@@ -1,0 +1,108 @@
+.s2 {
+  background-color: #101820;
+  height: 100vh;
+
+  .text-wwd {
+    font-size: sizerem(display-1);
+    font-weight: 400;
+    text-align: right;
+    color: white;
+
+    @include media(">tablet") {
+      font-size: sizerem(display-2);
+    }
+
+    @include media(">desktop") {
+      font-size: sizerem(display-3);
+    }
+  }
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  height: calc(100vh / 3);
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    bottom: 100%;
+    left: 0;
+    z-index: 1;
+    -webkit-transition: speed(slow);
+    -o-transition: speed(slow);
+    transition: speed(slow);
+    background: rgba(23, 23, 23, 0.9);
+  }
+
+  img {
+    width: 100%;
+    height: inherit;
+  }
+
+  .card-title {
+    text-transform: uppercase;
+    font-size: sizerem(larger);
+    color: white;
+  }
+
+  .card-text {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    padding: 0 sizerem(larger);
+    color: white;
+    z-index: 2;
+    -webkit-transition: speed(slow);
+    -o-transition: speed(slow);
+    transition: speed(slow);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    h3 {
+      font-weight: 400;
+      font-size: sizerem(small);
+      color: white;
+
+      @include media(">tablet") {
+        max-width: initial;
+        font-size: sizerem(normal);
+      }
+
+      @include media(">tablet") {
+        top: -100%;
+        left: 0%;
+      }
+    }
+  }
+
+  &:hover {
+    &::before {
+      bottom: 0%;
+    }
+
+    .card-text {
+      top: 25%;
+
+      @include media(">desktop") {
+        top: 25%;
+      }
+    }
+  }
+
+  @include media(">tablet") {
+    height: calc(95vh / 2);
+  }
+
+  @include media(">desktop") {
+    height: calc(99vh / 2);
+  }
+}
