@@ -1,17 +1,20 @@
 .blog-header {
   .display-5 {
     font-weight: weight(bold);
-    font-size: sizerem(display-0);
-    color: white;
+    font-size: sizerem(largest);
     margin: 0;
+    margin-top: sizerem(display-1);
+    color: white;
 
     @include media(">tablet") {
-      font-weight: weight(regular);
+      font-weight: weight(medium);
       font-size: sizerem(display-2);
+      margin-top: sizerem(display-1);
     }
 
     @include media(">desktop") {
       font-size: sizerem(display-3);
+      margin-top: sizerem(display-2);
     }
   }
 

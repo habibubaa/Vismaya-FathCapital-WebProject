@@ -1,0 +1,34 @@
+@import "./include-media";
+@import "./variables";
+@import "./light-nav";
+@import "./about-us-intro";
+@import "./about-us-carousel";
+@import "./footer";
+@import "./hide";
+@import "./fp";
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  background-color: #101820;
+  font-family: "Montserrat";
+}
+
+.img-main-about {
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  padding: 0;
+
+  img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+
+    @include media(">desktop") {
+      height: 100vh;
+    }
+  }
+}
