@@ -70,6 +70,8 @@
         font-weight: weight(thin);
         line-height: 1.5;
         margin-bottom: 0;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
@@ -79,7 +81,13 @@
           -webkit-line-clamp: 6;
         }
 
+        @include media(">tablet") {
+          font-size: sizerem(normal);
+        }
+
         @include media(">desktop") {
+          -webkit-line-clamp: 2;
+          line-clamp: 2;
           margin-bottom: sizerem(smallest);
         }
       }

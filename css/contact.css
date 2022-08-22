@@ -42,6 +42,8 @@
 .div-contact-desc {
   width: 1001px;
   height: auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e7de3ba7), to(#5dc6ada9));
+  background: -o-linear-gradient(top, #e7de3ba7 0%, #5dc6ada9 100%);
   background: linear-gradient(180deg, #e7de3ba7 0%, #5dc6ada9 100%);
   border-radius: 20px;
   margin-top: 20px;

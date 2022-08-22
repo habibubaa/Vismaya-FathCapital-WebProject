@@ -29,8 +29,12 @@ body {
     font-weight: weight(bold);
     font-size: sizerem(normal);
 
-    @include media(">desktop") {
+    @include media(">tablet") {
       font-size: sizerem(large);
+    }
+
+    @include media(">desktop") {
+      font-size: sizerem(larger);
     }
   }
 
@@ -52,6 +56,10 @@ body {
     font-size: sizerem(largest);
     text-transform: capitalize;
 
+    @include media(">tablet") {
+      font-size: sizerem(display-1);
+    }
+
     @include media(">desktop") {
       font-size: sizerem(display-2);
     }
@@ -63,8 +71,12 @@ body {
     margin-top: sizerem(small);
     margin-bottom: sizerem(largest);
 
-    @include media(">desktop") {
+    @include media(">tablet") {
       font-size: sizerem(normal);
+    }
+
+    @include media(">desktop") {
+      font-size: sizerem(larger);
     }
   }
 
@@ -75,8 +87,12 @@ body {
     text-align: justify;
     margin-top: sizerem(small);
 
-    @include media(">desktop") {
+    @include media(">tablet") {
       font-size: sizerem(normal);
+    }
+
+    @include media(">desktop") {
+      font-size: sizerem(large);
       margin-top: sizerem(normal);
     }
   }

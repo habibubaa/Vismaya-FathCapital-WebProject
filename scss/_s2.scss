@@ -55,9 +55,9 @@
     position: absolute;
     top: -100%;
     left: 0;
+    height: 100%;
     width: 100%;
-    padding: 0 sizerem(larger);
-    color: white;
+    padding: 0 sizerem(small);
     z-index: 2;
     -webkit-transition: speed(slow);
     -o-transition: speed(slow);
@@ -66,20 +66,29 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    color: white;
+    font-weight: weight(regular);
+
+    .text {
+      height: 100%;
+    }
 
     h3 {
-      font-weight: 400;
       font-size: sizerem(small);
-      color: white;
+      font-weight: weight(thin);
+      line-height: 2;
+
+      .font-weight-bold {
+        font-weight: weight(medium) !important;
+
+        @include media(">tablet") {
+          font-weight: weight(bold) !important;
+        }
+      }
 
       @include media(">tablet") {
         max-width: initial;
         font-size: sizerem(normal);
-      }
-
-      @include media(">tablet") {
-        top: -100%;
-        left: 0%;
       }
     }
   }
@@ -90,11 +99,7 @@
     }
 
     .card-text {
-      top: 25%;
-
-      @include media(">desktop") {
-        top: 25%;
-      }
+      top: 0%;
     }
   }
 

@@ -9,12 +9,11 @@
     @include media(">tablet") {
       font-weight: weight(medium);
       font-size: sizerem(display-2);
-      margin-top: sizerem(display-1);
+      margin-top: sizerem(display-2);
     }
 
     @include media(">desktop") {
       font-size: sizerem(display-3);
-      margin-top: sizerem(display-2);
     }
   }
 

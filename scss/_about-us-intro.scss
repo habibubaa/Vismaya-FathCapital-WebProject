@@ -30,7 +30,7 @@
 
     @include media(">desktop") {
       margin-top: sizerem(display-3);
-      font-size: sizerem(larger);
+      font-size: sizerem(large);
     }
   }
 }

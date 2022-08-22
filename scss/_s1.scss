@@ -5,36 +5,30 @@
   -webkit-box-pack: justify !important;
   -ms-flex-pack: justify !important;
   justify-content: space-between !important;
+  color: white;
 
   .display-4 {
+    cursor: default;
     font-size: sizerem(display-1);
-    font-weight: normal;
     text-align: center;
     text-shadow: shadow(normal);
-    color: white;
-    cursor: default;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 
     @include media(">tablet") {
-      font-size: sizerem(display-2);
-    }
-
-    @include media(">desktop") {
       font-size: sizerem(display-3);
     }
   }
 
   .lead {
+    cursor: default;
     font-size: sizerem(small);
     font-weight: weight(regular);
     text-align: center;
-    text-shadow: shadow(small);
     letter-spacing: 0.5px;
-    color: white;
-    cursor: default;
+    line-height: 2;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -42,12 +36,14 @@
 
     @include media(">tablet") {
       font-size: sizerem(large);
-      line-height: 1;
+      text-shadow: shadow(small);
+      margin-top: sizerem(largest);
     }
 
     @include media(">desktop") {
       font-size: sizerem(larger);
-      line-height: 1.5;
+      line-height: 2;
+      margin-top: sizerem(display-1);
     }
   }
 
