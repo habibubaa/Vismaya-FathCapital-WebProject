@@ -14,8 +14,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Raleway:wght@300;400;500;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
 
     <!-- Style -->
-    <link rel="stylesheet" href="css/contact.css" />
-    <link rel="stylesheet" href="css/desktop-contact.css" />
     <link rel="stylesheet" href="dist/css/contact.css" />
 
   </head>
@@ -38,41 +36,48 @@
             <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="about-us.html">About Us</a>
+            <a class="nav-link" href="about-us.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link active" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
     <!-- END NAVBAR -->
 
-    <!-- START WHAT WE DO SECTION -->
-    <section class="s2-blog-detail">
-      <div class="d-flex justify-content-center">
-        <div class="col-10 col-md-10 col-lg-10 col-page-contact">
-          <div class="row d-flex justify-content-center">
-            <div class="div-contact-title">
-              <span class="contact-title">Get In Touch</span>
-            </div>
+    <!-- START HEADER -->
+    <section class="header">
+      <div class="container d-flex justify-content-center">
+        <div class="row">
+          <div class="col-12">
+            <span class="contact-title">Get In Touch</span>
           </div>
-          <div class="row d-flex justify-content-center">
-            <div class="div-contact-desc">
-              <div class="container container-input-contact">
-                <form class="row-input-contact">
+        </div>
+      </div>
+    </section>
+    <!-- END HEADER -->
+
+    <!-- START GET IN TOUCH -->
+    <section class="get-in-touch">
+      <div class="container d-flex justify-content-center">
+        <div class="row">
+          <div class="col-12">
+            <div class="card div-contact">
+              <div class="card-body">
+                <form>
                   <div class="form-row">
-                    <div class="form-group col-md-5">
+                    <div class="col-12 col-md-6">
                       <label class="title-input-contact" for="inputName">Your Name (required)</label>
                       <input type="text" class="form-control" id="inputName" placeholder="" />
                     </div>
-                    <div class="form-group col-md-7">
+                    <div class="col-12 col-md-6">
                       <label class="title-input-contact" for="inputEmail">Your Email (required)</label>
                       <input type="email" class="form-control" id="inputEmail" placeholder="" />
                     </div>
                   </div>
                   <div class="form-row">
-                    <div class="form-group col-md-6">
+                    <div class="col-12">
                       <label class="title-input-contact" for="inputService">Pick Your Service</label>
                       <select id="inputService" class="form-control">
                         <option value="1" selected>Consulting</option>
@@ -80,30 +85,29 @@
                         <option value="3">Nutrition</option>
                       </select>
                     </div>
-                    <div class="form-group col-md-6">
+                    <div class="col-12">
                       <label class="title-input-contact" for="inputZip">Subject</label>
                       <input type="text" class="form-control" id="inputSubject" />
                     </div>
                   </div>
                   <div class="form-row">
-                    <div class="form-group col-md-12">
+                    <div class="col-12">
                       <label class="title-input-contact" for="inputMessage">Your Message</label>
-                      <textarea class="form-control input-textarea-contact" id="inputMessage" type="text"></textarea>
+                      <textarea class="form-control input-textarea-contact" id="inputMessage" type="text" rows="5"></textarea>
                     </div>
                   </div>
                   <div class="form-row">
-                    <div class="form-group col-md-12 d-flex justify-content-center">
-                      <button type="submit" class="btn-submit">SEND</button>
+                    <div class="col d-flex justify-content-center">
+                      <button type="submit" class="btn btn-submit">SEND</button>
                     </div>
                   </div>
                 </form>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </section>
-    <!-- END WHAT WE DO SECTION -->
+    <!-- END GET IN TOUCH -->
 
 
     <!-- START FOOTER SECTION -->
